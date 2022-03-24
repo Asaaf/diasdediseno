@@ -1,0 +1,24 @@
+/*
+Theme Name: Design Days
+Author: David Asaaf Vergara Almanza
+Author URI: as.f09942@gmail.com
+Description: Tema principal del evento días de diseño
+Version: 0.0.1
+Tags: responsive, theme wordpress, design days
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
+@import url(assets/page-styles/index.css);
+:root {
+    --yellow: #FAE400;
+    --magenta: #AF3264;
+    --purple: #4F3B80;
+    --blue-green: #70ACB0;
+    --primary-font: 'Montserrat';
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
