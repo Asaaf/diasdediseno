@@ -22,6 +22,9 @@
             <div class="about-image">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about.jpg" alt="Imagen acerca de días de diseño">
             </div>
+            <div class="circle-rack">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/circle-rack.png">
+            </div>
         </div>
     </div>
 </div>

@@ -1,3 +1,5 @@
+/*---> START COVER <---*/
+
 .logo {
     width: 100px;
     height: 70px;
@@ -129,9 +131,6 @@ ul.menu-list li:hover a {
     width: 100%;
 }
 
-
-/* --- FILTRO VÍDEO --*/
-
 .background-filter {
     width: 100%;
     height: 100%;
@@ -142,7 +141,7 @@ ul.menu-list li:hover a {
 }
 
 
-/*---> END FOR COVER */
+/*---> END FOR COVER <---*/
 
 
 /*---> START ABOUT <---*/
@@ -205,6 +204,102 @@ ul.menu-list li:hover a {
     top: 50%;
     left: 50%;
 }
+
+.circle-rack {
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    overflow: hidden;
+    right: 0;
+    bottom: -93px;
+}
+
+.circle-rack img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    top: 71%;
+    left: 84%;
+}
+
+
+/*---> END FOR ABOUT <---*/
+
+
+/*---> START GOAL <---*/
+
+.goal-container {
+    background: var(--dark-gray);
+}
+
+.goal-logo {
+    width: 50%;
+    overflow: hidden;
+    border-top: 3px solid var(--magenta);
+    border-bottom: 3px solid var(--magenta);
+    border-right: 3px solid var(--magenta);
+    margin: 21px 0px;
+    padding: 21px 18px 21px 45px;
+}
+
+.goal-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.goal-title {
+    display: flex;
+}
+
+.triangle-rack {
+    position: relative;
+    width: 81px;
+    height: 81px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.triangle-rack img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 39px;
+    margin-top: 21px;
+    color: var(--cromatic-black);
+}
+
+.goal-description {
+    font-family: var(--primary-font);
+    padding: 33px 96px 15px 15px;
+}
+
+.category-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/*---> END FOR GOAL <---*/
 
 
 /*---RESPONSIVE DESIGN---*/

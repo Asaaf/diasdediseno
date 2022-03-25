@@ -15,6 +15,8 @@
 <body>
     <?php include 'pages/cover.php' ?>
     <?php include 'pages/about.php' ?>
+    <?php include 'pages/goal.php' ?>
+    <?php include 'pages/categories.php' ?>
 </body>
 <script>
     document.getElementById('cover').play();
