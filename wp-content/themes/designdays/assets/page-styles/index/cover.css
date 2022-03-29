@@ -1,0 +1,139 @@
+.logo {
+    width: 100px;
+    height: 70px;
+    overflow: hidden;
+    background: var(--purple);
+    padding: 6px 12px;
+    margin-top: 12px;
+    float: left;
+}
+
+.logo img {
+    width: auto;
+    height: 100%;
+    filter: brightness(100);
+    float: right;
+}
+
+.menu {
+    width: calc(100% - 148px);
+    float: right;
+    margin-top: calc((70px + 24px) / 2);
+    padding-right: 24px;
+}
+
+ul.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+ul.menu-list li {
+    position: relative;
+    display: inline-block;
+    color: var(--purple);
+    padding: 0px 12px;
+}
+
+ul.menu-list li a {
+    color: var(--purple);
+    text-decoration: none;
+    z-index: 1;
+}
+
+ul.menu-list li::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 0;
+    height: 100%;
+    background-color: var(--purple);
+    transition: all 0.3s linear;
+    top: 0;
+    left: 0;
+}
+
+ul.menu-list li:hover::after {
+    width: 100%;
+}
+
+ul.menu-list li:hover a {
+    color: white;
+}
+
+.video {
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video video {
+    position: absolute;
+    width: 130%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.about-designdays {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    z-index: 200;
+    bottom: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-designdays img {
+    height: 100%;
+    width: auto;
+}
+
+.about-designdays span {
+    cursor: pointer;
+    font-family: var(--primary-font);
+    color: var(--purple);
+    padding: 2px 21px 2px 12px;
+    font-weight: 500;
+    margin-right: -21px;
+    border-radius: 12px;
+}
+
+.about-designdays span:hover {
+    background: var(--purple);
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.about {
+    position: relative;
+    width: 100%;
+}
+
+.background-filter {
+    width: 100%;
+    height: 100%;
+    background: var(--yellow);
+    position: absolute;
+    z-index: 1;
+    opacity: 0.8;
+}

@@ -9,7 +9,7 @@
             <div class="triangle-rack">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/triangle-rack.png" alt="">
             </div>
-            <div class="title">
+            <div class="goal-title">
                 OBJETIVO
             </div>
         </div>

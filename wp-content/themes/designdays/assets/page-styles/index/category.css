@@ -1,0 +1,71 @@
+.category {
+    padding: 75px 45px 45px 45px;
+    overflow: hidden;
+}
+
+.category .description {
+    line-height: 24px;
+    font-family: var(--primary-font);
+    margin-top: 21px;
+    font-size: 14px;
+    padding-left: 8px;
+    height: 0px;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.category-title .icon {
+    display: flex;
+    position: relative;
+    max-width: 81px;
+    height: 115px;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-title .icon img {
+    width: 100%;
+    height: auto;
+}
+
+h1.category-main-title {
+    text-align: center;
+    position: absolute;
+    z-index: 6;
+    background: white;
+    padding: 6px 30px 6px 10%;
+    font-family: var(--primary-font);
+    color: var(--cromatic-black);
+}
+
+div#lets-talk {
+    background: var(--yellow);
+}
+
+div#seven-by-seven {
+    background: var(--purple);
+    color: white;
+}
+
+div#open-door {
+    background: var(--magenta);
+    color: white;
+}
+
+div#bazaar {
+    background: var(--blue-green);
+    color: white;
+}
+
+div#lets-talk:hover .description,
+div#seven-by-seven:hover .description,
+div#open-door:hover .description,
+div#bazaar:hover .description {
+    height: 200px;
+    opacity: 1;
+}
