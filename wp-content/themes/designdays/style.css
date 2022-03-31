@@ -15,6 +15,7 @@ Tags: responsive, theme wordpress, design days
 @import url(assets/page-styles/index/about.css);
 @import url(assets/page-styles/index/goal.css);
 @import url(assets/page-styles/index/category.css);
+@import url(assets/page-styles/index/programming.css);
 @import url(assets/page-styles/index/responsive.css);
 :root {
     --yellow: #FAE400;

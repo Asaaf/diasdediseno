@@ -1,12 +1,15 @@
+.categories-container {
+    height: 525px;
+}
+
 .category {
-    padding: 75px 45px 45px 45px;
+    padding: 120px 45px 45px 45px;
     overflow: hidden;
 }
 
 .category .description {
     line-height: 24px;
     font-family: var(--primary-font);
-    margin-top: 21px;
     font-size: 14px;
     padding-left: 8px;
     height: 0px;
@@ -15,22 +18,36 @@
     transition: all 0.3s linear;
 }
 
-.category-title .icon {
+.category-title-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.category-title-container .icon {
     display: flex;
     position: relative;
-    max-width: 81px;
+    max-width: 65px;
     height: 115px;
     overflow: hidden;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
+    margin-right: 6px;
     align-items: center;
 }
 
-.category-title .icon img {
+.category-title-container .icon img {
     width: 100%;
     height: auto;
+}
+
+.category-title-container h2.title {
+    margin-left: 9px;
 }
 
 h1.category-main-title {
@@ -41,10 +58,12 @@ h1.category-main-title {
     padding: 6px 30px 6px 10%;
     font-family: var(--primary-font);
     color: var(--cromatic-black);
+    margin-top: 45px;
 }
 
 div#lets-talk {
     background: var(--yellow);
+    counter-reset: var(--cromatic-black);
 }
 
 div#seven-by-seven {
