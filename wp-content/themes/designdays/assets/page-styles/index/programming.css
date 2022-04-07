@@ -7,6 +7,7 @@
 }
 
 .events-container {
+    position: relative;
     padding: 0px 100px;
 }
 
@@ -108,15 +109,34 @@ h1.programming-title {
     letter-spacing: 1px;
 }
 
-.left-arrow {
+.arrow-container {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 42px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.left-arrow,
+.right-arrow {
     border-left: 0;
-    border-right: 30px solid var(--blue-green);
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
+    border-right: 21px solid var(--blue-green);
+    border-top: 21px solid transparent;
+    border-bottom: 21px solid transparent;
     position: absolute;
     display: block;
     z-index: 2;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
+    left: 81px;
+}
+
+.right-arrow {
+    border-left: 21px solid var(--blue-green);
+    border-right: 0;
+    right: 81px;
+    left: initial;
 }
