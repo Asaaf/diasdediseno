@@ -2,6 +2,10 @@
     <h1 class="programming-title">PROGRAMACIÓN</h1>
     <div class="pure-g events-container">
 
+    <div class="left-arrow-container">
+        <div class="left-arrow"></div>
+    </div>
+
         <div class="pure-u-1 pure-u-lg-6-24">
             <div class="event-card-container">
                 <div class="event-card-date">

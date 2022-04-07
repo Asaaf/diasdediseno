@@ -95,3 +95,28 @@ h1.programming-title {
     font-weight: 600;
     margin: 12px 0px;
 }
+
+.event-hour {
+    position: absolute;
+    z-index: 1;
+    color: var(--yellow);
+    text-align: center;
+    font-family: var(--primary-font);
+    width: 100%;
+    bottom: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.left-arrow {
+    border-left: 0;
+    border-right: 30px solid var(--blue-green);
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    display: block;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
