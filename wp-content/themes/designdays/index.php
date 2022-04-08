@@ -18,6 +18,7 @@
     <?php include 'pages/goal.php' ?>
     <?php include 'pages/categories.php' ?>
     <?php include 'pages/programming.php' ?>
+    <?php include 'pages/footer.php' ?>
 </body>
 <script>
     document.getElementById('cover').play();
