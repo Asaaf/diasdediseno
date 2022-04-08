@@ -1,0 +1,58 @@
+/*--MD: Smartphones--*/
+
+@media only screen and (max-width: 35.5em) {
+    .about {
+        width: calc(100% - 30px);
+        height: auto;
+        padding: 15px;
+    }
+    .about-container {
+        position: relative;
+        transform: none;
+        top: 0;
+    }
+    .content-about {
+        padding: 21px 7px;
+    }
+    .about-image {
+        transform: none;
+        margin-left: 0px;
+        margin-top: 66px;
+    }
+    .about-image img {
+        width: auto;
+        height: 100%;
+    }
+    .about-container-section {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 48em) {
+    .about {
+        width: calc(100% - 30px);
+        height: auto;
+        padding: 15px;
+    }
+    .about-container {
+        height: auto;
+        position: relative;
+        transform: none;
+        top: 0;
+    }
+    .content-about {
+        padding: 21px 7px;
+    }
+    .about-image {
+        transform: none;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .about-image img {
+        width: auto;
+        height: 100%;
+    }
+    .about-container-section {
+        height: auto;
+    }
+}
