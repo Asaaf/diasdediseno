@@ -10,5 +10,7 @@
             Acá va el logo
         </div>
     </div>
-
+    <div class="background-image">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer.png" alt="imagen-fondo-footer">
+    </div>
 </div>

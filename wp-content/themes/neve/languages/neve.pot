@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-02-23T11:31:27+00:00\n"
+"POT-Creation-Date: 2022-04-06T15:31:55+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: neve\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: inc/admin/troubleshoot/main.php:96
 #: inc/admin/troubleshoot/main.php:102
 #: inc/admin/troubleshoot/main.php:115
-#: inc/customizer/options/main.php:118
+#: inc/customizer/options/main.php:117
 #: assets/apps/metabox/src/components/Sidebar.js:60
 msgid "Neve"
 msgstr ""
@@ -57,7 +57,7 @@ msgstr ""
 msgid "You appear to be running the Neve theme from source code. Please finish installation by running %s."
 msgstr ""
 
-#: globals/utilities.php:199
+#: globals/utilities.php:214
 #: header-footer-grid/Core/Components/Nav.php:189
 #: searchform.php:19
 #: searchform.php:39
@@ -66,7 +66,7 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: globals/utilities.php:357
+#: globals/utilities.php:415
 #: inc/customizer/options/upsells.php:162
 #: inc/customizer/options/upsells.php:174
 #: inc/customizer/options/upsells.php:179
@@ -78,16 +78,17 @@ msgstr ""
 #: assets/apps/dashboard/src/Components/Content/Help.js:78
 #: assets/apps/dashboard/src/Components/Content/Help.js:111
 #: assets/apps/dashboard/src/Components/ModuleCard.js:194
+#: assets/apps/dashboard/src/Components/PluginCard.js:27
 msgid "Learn More"
 msgstr ""
 
 #. translators: store name (Themeisle)
-#: globals/utilities.php:360
+#: globals/utilities.php:418
 #: header-footer-grid/Core/Builder/Footer.php:48
 #: header-footer-grid/Core/Builder/Header.php:70
-#: inc/admin/dashboard/main.php:232
+#: inc/admin/dashboard/main.php:233
 #: inc/core/admin.php:452
-#: inc/core/front_end.php:411
+#: inc/core/front_end.php:423
 #: inc/customizer/controls/simple_upsell.php:64
 #: inc/customizer/controls/simple_upsell_section.php:62
 #: inc/customizer/options/upsells.php:70
@@ -98,28 +99,29 @@ msgstr ""
 msgid "(opens in a new tab)"
 msgstr ""
 
-#: globals/utilities.php:388
-#: globals/utilities.php:436
+#: globals/utilities.php:446
+#: globals/utilities.php:494
 msgid "Base"
 msgstr ""
 
-#: globals/utilities.php:403
-#: globals/utilities.php:451
+#: globals/utilities.php:461
+#: globals/utilities.php:509
 msgid "Dark Mode"
 msgstr ""
 
 #: header-footer-grid/Core/Builder/Abstract_Builder.php:340
-#: header-footer-grid/Core/Settings/Manager.php:186
+#: header-footer-grid/Core/Settings/Manager.php:206
 #: inc/customizer/options/main.php:56
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:181
 msgid "Layout"
 msgstr ""
 
 #: header-footer-grid/Core/Builder/Abstract_Builder.php:345
 #: header-footer-grid/Core/Builder/Abstract_Builder.php:346
 #: inc/admin/metabox/main.php:54
-#: inc/customizer/options/layout_container.php:143
+#: inc/customizer/options/layout_container.php:152
 #: inc/customizer/options/layout_sidebar.php:177
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:318
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:331
 msgid "Full Width"
 msgstr ""
 
@@ -127,8 +129,8 @@ msgstr ""
 #: header-footer-grid/Core/Builder/Abstract_Builder.php:347
 #: inc/admin/metabox/main.php:53
 #: inc/customizer/options/base_layout_single.php:496
-#: inc/customizer/options/layout_container.php:142
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:299
+#: inc/customizer/options/layout_container.php:151
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:312
 msgid "Contained"
 msgstr ""
 
@@ -159,7 +161,7 @@ msgstr ""
 #: header-footer-grid/Core/Components/Logo.php:474
 #: inc/compatibility/elementor.php:118
 #: inc/core/front_end.php:115
-#: inc/customizer/options/layout_blog.php:177
+#: inc/customizer/options/layout_blog.php:186
 #: assets/apps/components/src/Common/common.js:77
 msgid "Text Color"
 msgstr ""
@@ -180,8 +182,8 @@ msgstr ""
 #: assets/apps/components/src/Controls/ButtonAppearance.js:112
 #: assets/apps/customizer-controls/src/non-responsive-spacing/NRSpacingComponent.js:46
 #: assets/apps/customizer-controls/src/spacing/SpacingComponent.js:128
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:222
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:226
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:228
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:232
 msgid "Left"
 msgstr ""
 
@@ -198,8 +200,8 @@ msgstr ""
 #: assets/apps/components/src/Controls/ButtonAppearance.js:110
 #: assets/apps/customizer-controls/src/non-responsive-spacing/NRSpacingComponent.js:44
 #: assets/apps/customizer-controls/src/spacing/SpacingComponent.js:118
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:236
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:240
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:242
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:246
 msgid "Right"
 msgstr ""
 
@@ -348,7 +350,7 @@ msgid "Global Header Settings"
 msgstr ""
 
 #: header-footer-grid/Core/Builder/Header.php:196
-#: header-footer-grid/Core/Settings/Manager.php:182
+#: header-footer-grid/Core/Settings/Manager.php:202
 #: inc/customizer/options/buttons.php:63
 #: inc/customizer/options/checkout.php:105
 #: inc/customizer/options/typography.php:41
@@ -358,7 +360,7 @@ msgstr ""
 #: header-footer-grid/Core/Builder/Header.php:220
 #: assets/apps/components/src/Controls/ButtonAppearance.js:41
 #: assets/apps/components/src/Controls/ButtonAppearance.js:51
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:58
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:60
 msgid "Background"
 msgstr ""
 
@@ -368,7 +370,7 @@ msgid "Enable Advanced Options"
 msgstr ""
 
 #: header-footer-grid/Core/Builder/Header.php:257
-#: header-footer-grid/Core/Magic_Tags.php:587
+#: header-footer-grid/Core/Magic_Tags.php:637
 msgid "Global"
 msgstr ""
 
@@ -395,8 +397,8 @@ msgid "HTML"
 msgstr ""
 
 #: header-footer-grid/Core/Builder/Header.php:558
-#: inc/admin/dashboard/main.php:406
-#: inc/core/front_end.php:403
+#: inc/admin/dashboard/main.php:408
+#: inc/core/front_end.php:415
 msgid "Custom Layouts"
 msgstr ""
 
@@ -406,7 +408,7 @@ msgstr ""
 
 #: header-footer-grid/Core/Components/Abstract_Component.php:499
 #: inc/customizer/options/buttons.php:83
-#: inc/customizer/options/buttons.php:289
+#: inc/customizer/options/buttons.php:290
 msgid "Padding"
 msgstr ""
 
@@ -415,7 +417,7 @@ msgid "Margin"
 msgstr ""
 
 #: header-footer-grid/Core/Components/Abstract_Component.php:880
-#: inc/customizer/options/main.php:61
+#: inc/customizer/options/main.php:60
 msgid "Typography"
 msgstr ""
 
@@ -440,21 +442,23 @@ msgid "Text"
 msgstr ""
 
 #: header-footer-grid/Core/Components/Button.php:137
-#: header-footer-grid/Core/Components/MenuIcon.php:161
+#: header-footer-grid/Core/Components/MenuIcon.php:484
 msgid "Appearance"
 msgstr ""
 
-#: header-footer-grid/Core/Components/CartIcon.php:44
+#: header-footer-grid/Core/Components/CartIcon.php:45
 msgid "Cart Icon"
 msgstr ""
 
-#: header-footer-grid/Core/Components/CartIcon.php:145
-#: header-footer-grid/Core/Components/PaletteSwitch.php:394
+#: header-footer-grid/Core/Components/CartIcon.php:146
+#: header-footer-grid/Core/Components/EddCartIcon.php:63
+#: header-footer-grid/Core/Components/PaletteSwitch.php:417
 #: header-footer-grid/Core/Components/SearchResponsive.php:154
 msgid "Icon Size"
 msgstr ""
 
-#: header-footer-grid/Core/Components/CartIcon.php:176
+#: header-footer-grid/Core/Components/CartIcon.php:177
+#: header-footer-grid/Core/Components/EddCartIcon.php:94
 #: header-footer-grid/Core/Components/SearchResponsive.php:189
 #: inc/customizer/options/base_layout_single.php:465
 #: inc/customizer/options/form_fields.php:359
@@ -464,7 +468,8 @@ msgstr ""
 msgid "Color"
 msgstr ""
 
-#: header-footer-grid/Core/Components/CartIcon.php:206
+#: header-footer-grid/Core/Components/CartIcon.php:207
+#: header-footer-grid/Core/Components/EddCartIcon.php:114
 #: header-footer-grid/Core/Components/SearchResponsive.php:214
 msgid "Hover Color"
 msgstr ""
@@ -483,23 +488,27 @@ msgstr ""
 msgid "Arbitrary HTML code. It supports also shortcodes."
 msgstr ""
 
+#: header-footer-grid/Core/Components/EddCartIcon.php:41
+msgid "Easy Digital Downloads Cart"
+msgstr ""
+
 #: header-footer-grid/Core/Components/FooterWidgetFour.php:32
-#: inc/core/front_end.php:370
+#: inc/core/front_end.php:380
 msgid "Footer Four"
 msgstr ""
 
 #: header-footer-grid/Core/Components/FooterWidgetOne.php:31
-#: inc/core/front_end.php:367
+#: inc/core/front_end.php:377
 msgid "Footer One"
 msgstr ""
 
 #: header-footer-grid/Core/Components/FooterWidgetThree.php:31
-#: inc/core/front_end.php:369
+#: inc/core/front_end.php:379
 msgid "Footer Three"
 msgstr ""
 
 #: header-footer-grid/Core/Components/FooterWidgetTwo.php:32
-#: inc/core/front_end.php:368
+#: inc/core/front_end.php:378
 msgid "Footer Two"
 msgstr ""
 
@@ -535,20 +544,26 @@ msgstr ""
 msgid "Disable Homepage Link"
 msgstr ""
 
-#: header-footer-grid/Core/Components/MenuIcon.php:78
+#: header-footer-grid/Core/Components/MenuIcon.php:81
 msgid "Menu Icon"
 msgstr ""
 
-#: header-footer-grid/Core/Components/MenuIcon.php:102
+#: header-footer-grid/Core/Components/MenuIcon.php:396
 msgid "Menu label"
 msgstr ""
 
-#: header-footer-grid/Core/Components/MenuIcon.php:128
+#: header-footer-grid/Core/Components/MenuIcon.php:422
 msgid "Show Mobile Menu"
 msgstr ""
 
-#: header-footer-grid/Core/Components/MenuIcon.php:132
+#: header-footer-grid/Core/Components/MenuIcon.php:426
 msgid "Mobile Menu Options"
+msgstr ""
+
+#: header-footer-grid/Core/Components/MenuIcon.php:442
+#: header-footer-grid/Core/Components/MenuIcon.php:443
+#: header-footer-grid/Core/Components/SearchResponsive.php:135
+msgid "Icon"
 msgstr ""
 
 #: header-footer-grid/Core/Components/Nav.php:43
@@ -581,8 +596,9 @@ msgid "Items Hover Color"
 msgstr ""
 
 #: header-footer-grid/Core/Components/Nav.php:194
-#: header-footer-grid/Core/Magic_Tags.php:608
-#: header-footer-grid/templates/components/component-cart-icon.php:50
+#: header-footer-grid/Core/Magic_Tags.php:658
+#: header-footer-grid/templates/components/component-cart-icon.php:51
+#: header-footer-grid/templates/components/component-edd-cart-icon.php:32
 #: inc/views/header.php:178
 msgid "Cart"
 msgstr ""
@@ -614,47 +630,47 @@ msgstr ""
 msgid "Footer Menu"
 msgstr ""
 
-#: header-footer-grid/Core/Components/PaletteSwitch.php:90
+#: header-footer-grid/Core/Components/PaletteSwitch.php:97
 msgid "Palette Switch"
 msgstr ""
 
-#: header-footer-grid/Core/Components/PaletteSwitch.php:335
+#: header-footer-grid/Core/Components/PaletteSwitch.php:343
 #: assets/apps/customizer-controls/src/logo-palette/LogoPaletteComponent.js:183
 #: assets/apps/customizer-controls/src/logo-palette/LogoPaletteComponent.js:193
 msgid "Light Palette"
 msgstr ""
 
 #. translators: %s: Link to Edit global color customizer.
-#: header-footer-grid/Core/Components/PaletteSwitch.php:337
+#: header-footer-grid/Core/Components/PaletteSwitch.php:345
 msgid "The base palette is used for light mode. %1$sEdit color palettes%2$s."
 msgstr ""
 
-#: header-footer-grid/Core/Components/PaletteSwitch.php:350
-#: header-footer-grid/Core/Components/PaletteSwitch.php:351
+#: header-footer-grid/Core/Components/PaletteSwitch.php:358
+#: header-footer-grid/Core/Components/PaletteSwitch.php:359
 #: assets/apps/customizer-controls/src/logo-palette/LogoPaletteComponent.js:236
 #: assets/apps/customizer-controls/src/logo-palette/LogoPaletteComponent.js:246
 msgid "Dark Palette"
 msgstr ""
 
-#: header-footer-grid/Core/Components/PaletteSwitch.php:370
-#: header-footer-grid/Core/Components/PaletteSwitch.php:371
+#: header-footer-grid/Core/Components/PaletteSwitch.php:391
+#: header-footer-grid/Core/Components/PaletteSwitch.php:392
 msgid "Select icon"
 msgstr ""
 
-#: header-footer-grid/Core/Components/PaletteSwitch.php:430
+#: header-footer-grid/Core/Components/PaletteSwitch.php:453
 msgid "Label"
 msgstr ""
 
-#: header-footer-grid/Core/Components/PaletteSwitch.php:433
+#: header-footer-grid/Core/Components/PaletteSwitch.php:456
 msgid "Leave blank for no label ..."
 msgstr ""
 
-#: header-footer-grid/Core/Components/PaletteSwitch.php:450
+#: header-footer-grid/Core/Components/PaletteSwitch.php:473
 msgid "Automatically adjust color scheme"
 msgstr ""
 
 #. translators: %s: Link to Learn More page.
-#: header-footer-grid/Core/Components/PaletteSwitch.php:452
+#: header-footer-grid/Core/Components/PaletteSwitch.php:475
 msgid "Adjust default color scheme based on the user device preferences. %1$sLearn More%2$s."
 msgstr ""
 
@@ -722,12 +738,8 @@ msgstr ""
 msgid "Float Above Header"
 msgstr ""
 
-#: header-footer-grid/Core/Components/SearchResponsive.php:135
-msgid "Icon"
-msgstr ""
-
 #: header-footer-grid/Core/Components/SearchResponsive.php:240
-#: inc/customizer/options/layout_blog.php:275
+#: inc/customizer/options/layout_blog.php:348
 msgid "Search Field"
 msgstr ""
 
@@ -751,7 +763,7 @@ msgstr ""
 #: header-footer-grid/Core/Customizer.php:273
 #: assets/apps/customizer-controls/src/font-family/FontFamilySelector.js:59
 #: assets/apps/customizer-controls/src/font-family/FontFamilySelector.js:183
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:280
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:293
 msgid "Default"
 msgstr ""
 
@@ -766,10 +778,10 @@ msgid "Click on any empty space to add components, or existing components to adj
 msgstr ""
 
 #: header-footer-grid/Core/Customizer.php:293
-#: header-footer-grid/templates/components/component-cart-icon.php:26
+#: header-footer-grid/templates/components/component-cart-icon.php:27
 #: header-footer-grid/templates/components/component-search-responsive.php:46
 #: inc/views/header.php:139
-#: inc/views/layouts/layout_sidebar.php:182
+#: inc/views/layouts/layout_sidebar.php:184
 msgid "Close"
 msgstr ""
 
@@ -777,147 +789,155 @@ msgstr ""
 msgid "Search Components"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:499
+#: header-footer-grid/Core/Magic_Tags.php:549
 msgid "Single"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:502
+#: header-footer-grid/Core/Magic_Tags.php:552
 msgid "Current Single Title"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:506
+#: header-footer-grid/Core/Magic_Tags.php:556
 msgid "Current Single Excerpt"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:510
+#: header-footer-grid/Core/Magic_Tags.php:560
 msgid "Current Single URL"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:514
+#: header-footer-grid/Core/Magic_Tags.php:564
 msgid "Current Post Meta"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:518
+#: header-footer-grid/Core/Magic_Tags.php:568
 msgid "Author meta"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:522
+#: header-footer-grid/Core/Magic_Tags.php:572
 msgid "Date meta"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:526
+#: header-footer-grid/Core/Magic_Tags.php:576
 msgid "Category meta"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:530
+#: header-footer-grid/Core/Magic_Tags.php:580
 msgid "Comments meta"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:536
+#: header-footer-grid/Core/Magic_Tags.php:586
 msgid "Archive"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:539
+#: header-footer-grid/Core/Magic_Tags.php:589
 msgid "Archive Description"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:543
+#: header-footer-grid/Core/Magic_Tags.php:593
 msgid "Archive Title"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:547
+#: header-footer-grid/Core/Magic_Tags.php:597
 msgid "Archive URL"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:553
-#: inc/customizer/options/layout_blog.php:389
+#: header-footer-grid/Core/Magic_Tags.php:603
+#: inc/customizer/options/layout_blog.php:462
 #: inc/customizer/options/layout_single_post.php:255
-#: inc/views/partials/post_meta.php:179
+#: inc/views/partials/post_meta.php:184
 msgid "Author"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:556
+#: header-footer-grid/Core/Magic_Tags.php:606
 msgid "Author Bio"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:560
+#: header-footer-grid/Core/Magic_Tags.php:610
 msgid "Author Name"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:564
+#: header-footer-grid/Core/Magic_Tags.php:614
 msgid "Author URL"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:570
+#: header-footer-grid/Core/Magic_Tags.php:620
 msgid "Current User"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:573
+#: header-footer-grid/Core/Magic_Tags.php:623
 msgid "User Nice Name"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:577
+#: header-footer-grid/Core/Magic_Tags.php:627
 msgid "Display Name"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:581
+#: header-footer-grid/Core/Magic_Tags.php:631
 msgid "User Email"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:590
+#: header-footer-grid/Core/Magic_Tags.php:640
 msgid "Site Title"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:594
+#: header-footer-grid/Core/Magic_Tags.php:644
 msgid "Site Tagline"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:598
+#: header-footer-grid/Core/Magic_Tags.php:648
 msgid "Home URL"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:602
+#: header-footer-grid/Core/Magic_Tags.php:652
 msgid "Current Year"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:611
+#: header-footer-grid/Core/Magic_Tags.php:661
+#: header-footer-grid/Core/Magic_Tags.php:685
 msgid "Total + Currency Symbol"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:615
+#: header-footer-grid/Core/Magic_Tags.php:665
+#: header-footer-grid/Core/Magic_Tags.php:689
 msgid "Total"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:619
+#: header-footer-grid/Core/Magic_Tags.php:669
+#: header-footer-grid/Core/Magic_Tags.php:693
 msgid "Currency Name"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:623
+#: header-footer-grid/Core/Magic_Tags.php:673
+#: header-footer-grid/Core/Magic_Tags.php:697
 msgid "Currency Symbol"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:632
+#: header-footer-grid/Core/Magic_Tags.php:682
+msgid "EDD Cart"
+msgstr ""
+
+#: header-footer-grid/Core/Magic_Tags.php:706
 msgid "WooCommerce"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:635
+#: header-footer-grid/Core/Magic_Tags.php:709
 msgid "Product Price"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:639
+#: header-footer-grid/Core/Magic_Tags.php:713
 msgid "Product Title"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:643
+#: header-footer-grid/Core/Magic_Tags.php:717
 msgid "Cart URL"
 msgstr ""
 
-#: header-footer-grid/Core/Magic_Tags.php:647
+#: header-footer-grid/Core/Magic_Tags.php:721
 msgid "Checkout URL"
 msgstr ""
 
-#: header-footer-grid/Core/Settings/Manager.php:190
-#: inc/customizer/options/main.php:167
+#: header-footer-grid/Core/Settings/Manager.php:210
+#: inc/customizer/options/main.php:166
 #: assets/apps/components/src/Controls/ButtonAppearance.js:184
 msgid "Style"
 msgstr ""
@@ -932,12 +952,12 @@ msgstr ""
 msgid "Appearance %1$s Customize %2$s Footer %3$s"
 msgstr ""
 
-#: header-footer-grid/templates/components/component-menu-icon.php:21
 #: header-footer-grid/templates/components/component-menu-icon.php:25
-#: header-footer-grid/templates/components/component-menu-icon.php:36
-#: header-footer-grid/templates/row-wrapper-mobile.php:32
-#: header-footer-grid/templates/row-wrapper-mobile.php:33
-#: header-footer-grid/templates/row-wrapper-mobile.php:41
+#: header-footer-grid/templates/components/component-menu-icon.php:29
+#: header-footer-grid/templates/components/component-menu-icon.php:51
+#: header-footer-grid/templates/row-wrapper-mobile.php:34
+#: header-footer-grid/templates/row-wrapper-mobile.php:35
+#: header-footer-grid/templates/row-wrapper-mobile.php:55
 msgid "Navigation Menu"
 msgstr ""
 
@@ -958,227 +978,227 @@ msgid "Skip to content"
 msgstr ""
 
 #. translators: %s - Theme name
-#: inc/admin/dashboard/main.php:131
-#: inc/admin/dashboard/main.php:133
-#: inc/admin/dashboard/main.php:210
+#: inc/admin/dashboard/main.php:132
+#: inc/admin/dashboard/main.php:134
+#: inc/admin/dashboard/main.php:211
 #: assets/apps/metabox/src/components/Sidebar.js:60
 msgid "%s Options"
 msgstr ""
 
 #. translators: %s - Theme name
-#: inc/admin/dashboard/main.php:212
+#: inc/admin/dashboard/main.php:213
 #: inc/core/admin.php:442
 msgid "%s now comes with a sites library with various designs to pick from. Visit our collection of demos that are constantly being added."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:213
+#: inc/admin/dashboard/main.php:214
 msgid "Upgrade to the Pro version and get instant access to all Premium Starter Sites — including Expert Sites — and much more."
 msgstr ""
 
 #. translators: %s - Theme name
-#: inc/admin/dashboard/main.php:215
+#: inc/admin/dashboard/main.php:216
 msgid "With %s, you can choose from multiple unique demos, specially designed for you, that can be installed with a single click. You just need to choose your favorite, and we will take care of everything else."
 msgstr ""
 
 #. translators: 1 - Theme name, 2 - Cloud Templates & Patterns Collection
-#: inc/admin/dashboard/main.php:217
+#: inc/admin/dashboard/main.php:218
 msgid "In order to be able to import any starter sites for %1$s you would need to have the %2$s plugin active."
 msgstr ""
 
 #. translators: %s - Theme name
-#: inc/admin/dashboard/main.php:219
+#: inc/admin/dashboard/main.php:220
 msgid "In order to be able to import any starter sites for %1$s you would need to have the %2$s plugin updated to the latest version."
 msgstr ""
 
 #. translators: %s - Theme name
-#: inc/admin/dashboard/main.php:221
+#: inc/admin/dashboard/main.php:222
 msgid "We want to make sure you have the best experience using %1$s, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using %1$s as much as we enjoy creating great products."
 msgstr ""
 
 #. translators: %s - Theme name
-#: inc/admin/dashboard/main.php:223
+#: inc/admin/dashboard/main.php:224
 #: inc/core/admin.php:450
 msgid "Need more details? Please check our full documentation for detailed information on how to use %s."
 msgstr ""
 
 #. translators: %s - "Neve Pro Addon"
-#: inc/admin/dashboard/main.php:225
+#: inc/admin/dashboard/main.php:226
 msgid "%s license"
 msgstr ""
 
 #. translators: %s - "Neve Pro Addon"
-#: inc/admin/dashboard/main.php:227
+#: inc/admin/dashboard/main.php:228
 msgid "Please update %s to the latest version and then refresh this page to have access to the options."
 msgstr ""
 
 #. translators: store name (Themeisle)
-#: inc/admin/dashboard/main.php:231
+#: inc/admin/dashboard/main.php:232
 msgid "Enter your license from %1$s purchase history in order to get plugin updates"
 msgstr ""
 
 #. translators: s - theme name (Neve).
-#: inc/admin/dashboard/main.php:271
+#: inc/admin/dashboard/main.php:273
 msgid "New theme update for %1$s! Please update to %2$s."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:276
-#: inc/admin/dashboard/main.php:297
+#: inc/admin/dashboard/main.php:278
+#: inc/admin/dashboard/main.php:299
 msgid "Update Now"
 msgstr ""
 
 #. translators: s - Pro plugin name (Neve Pro)
-#: inc/admin/dashboard/main.php:288
+#: inc/admin/dashboard/main.php:290
 msgid "New plugin update for %1$s! Please update to %2$s."
 msgstr ""
 
 #. translators: 1 - Theme Name (Neve), 2 - Plugin Name (Neve Pro)
-#: inc/admin/dashboard/main.php:306
+#: inc/admin/dashboard/main.php:308
 msgid "We recommend that both %1$s and %2$s are updated to the latest version to ensure optimal intercompatibility."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:321
+#: inc/admin/dashboard/main.php:323
 #: assets/apps/customizer-controls/src/logo-palette/LogoPaletteComponent.js:187
 #: assets/apps/customizer-controls/src/logo-palette/LogoPaletteComponent.js:240
 msgid "Upload Logo"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:325
+#: inc/admin/dashboard/main.php:327
 msgid "Set Colors"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:329
+#: inc/admin/dashboard/main.php:331
 msgid "Customize Fonts"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:333
+#: inc/admin/dashboard/main.php:335
 msgid "Layout Options"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:337
+#: inc/admin/dashboard/main.php:339
 msgid "Header Options"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:341
+#: inc/admin/dashboard/main.php:343
 msgid "Blog Layouts"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:345
+#: inc/admin/dashboard/main.php:347
 msgid "Footer Options"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:349
+#: inc/admin/dashboard/main.php:351
 #: inc/customizer/options/layout_sidebar.php:95
 msgid "Content / Sidebar"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:382
+#: inc/admin/dashboard/main.php:384
 msgid "Header/Footer builder"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:383
+#: inc/admin/dashboard/main.php:385
 msgid "Easily build your header and footer by dragging and dropping all the important elements in the real-time WordPress Customizer. More advanced options are available in PRO."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:388
+#: inc/admin/dashboard/main.php:390
 msgid "Page Builder Compatibility"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:389
+#: inc/admin/dashboard/main.php:391
 msgid "Neve is fully compatible with Gutenberg, the new WordPress editor and for all of you page builder fans, Neve has full compatibility with Elementor, Beaver Builder, and all the other popular page builders."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:394
-#: inc/core/front_end.php:400
+#: inc/admin/dashboard/main.php:396
+#: inc/core/front_end.php:412
 msgid "Header Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:395
+#: inc/admin/dashboard/main.php:397
 msgid "Take the header builder to a new level with new awesome components: socials, contact, breadcrumbs, language switcher, multiple HTML, sticky and transparent menu, page header builder and many more."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:400
+#: inc/admin/dashboard/main.php:402
 msgid "Page Header Builder"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:401
+#: inc/admin/dashboard/main.php:403
 msgid "The Page Header is the horizontal area that sits directly below the header and contains the page/post title. Easily design an attractive Page Header area using our dedicated builder."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:407
+#: inc/admin/dashboard/main.php:409
 msgid "Powerful Custom Layouts builder which allows you to easily create your own header, footer or custom content on any of the hook locations available in the theme."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:412
-#: inc/core/front_end.php:401
+#: inc/admin/dashboard/main.php:414
+#: inc/core/front_end.php:413
 msgid "Blog Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:413
+#: inc/admin/dashboard/main.php:415
 msgid "Give a huge boost to your entire blogging experience with features specially designed for increased user experience."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:413
+#: inc/admin/dashboard/main.php:415
 msgid "Sharing, custom article sorting, comments integrations, number of minutes needed to read an article and many more."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:418
-#: inc/core/front_end.php:406
+#: inc/admin/dashboard/main.php:420
+#: inc/core/front_end.php:418
 msgid "Elementor Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:419
-#: inc/core/front_end.php:409
+#: inc/admin/dashboard/main.php:421
+#: inc/core/front_end.php:421
 msgid "Leverage the true flexibility of Elementor with powerful addons and templates that you can import with just one click."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:424
-#: inc/core/front_end.php:402
+#: inc/admin/dashboard/main.php:426
+#: inc/core/front_end.php:414
 #: assets/apps/dashboard/src/Components/Content/Start.js:148
 msgid "WooCommerce Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:425
+#: inc/admin/dashboard/main.php:427
 #: assets/apps/dashboard/src/Components/Content/Start.js:149
 msgid "Empower your online store with awesome new features, specially designed for a smooth WooCommerce integration."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:425
+#: inc/admin/dashboard/main.php:427
 msgid "Wishlist, quick view, video products, advanced reviews, multiple dedicated layouts and many more."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:430
+#: inc/admin/dashboard/main.php:432
 msgid "LifterLMS Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:431
+#: inc/admin/dashboard/main.php:433
 msgid "Make your LifterLMS pages look stunning with our PRO design options. Specially created to help you set up your online courses with minimum customizations."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:436
+#: inc/admin/dashboard/main.php:438
 msgid "Typekit(Adobe) Fonts"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:437
+#: inc/admin/dashboard/main.php:439
 msgid "The module allows for an easy way of enabling new awesome Adobe (previous Typekit) Fonts in Neve's Typography options."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:442
+#: inc/admin/dashboard/main.php:444
 msgid "White Label"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:443
+#: inc/admin/dashboard/main.php:445
 msgid "For any developer or agency out there building websites for their own clients, we've made it easy to present the theme as your own."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:448
+#: inc/admin/dashboard/main.php:450
 msgid "Scroll To Top"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:449
+#: inc/admin/dashboard/main.php:451
 msgid "Simple but effective module to help you navigate back to the top of the really long pages."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:454
+#: inc/admin/dashboard/main.php:456
 msgid "See all PRO features"
 msgstr ""
 
@@ -1189,7 +1209,7 @@ msgstr ""
 
 #: inc/admin/metabox/main.php:56
 #: inc/customizer/options/layout_container.php:43
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:254
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:267
 msgid "Container"
 msgstr ""
 
@@ -1206,8 +1226,8 @@ msgid "No Sidebar"
 msgstr ""
 
 #: inc/admin/metabox/main.php:78
-#: inc/core/front_end.php:360
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:181
+#: inc/core/front_end.php:370
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:187
 msgid "Sidebar"
 msgstr ""
 
@@ -1216,13 +1236,13 @@ msgid "Components"
 msgstr ""
 
 #: inc/admin/metabox/main.php:93
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:601
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:639
 msgid "Disable Header"
 msgstr ""
 
 #: inc/admin/metabox/main.php:98
 #: inc/customizer/options/layout_single_page.php:48
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:641
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:679
 msgid "Disable Title"
 msgstr ""
 
@@ -1231,7 +1251,7 @@ msgid "Disable Featured Image"
 msgstr ""
 
 #: inc/admin/metabox/main.php:110
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:620
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:658
 msgid "Disable Footer"
 msgstr ""
 
@@ -1244,21 +1264,21 @@ msgid "Enable Individual Content Width"
 msgstr ""
 
 #. translators: %s - post type
-#: inc/admin/metabox/manager.php:130
-#: inc/admin/metabox/manager.php:147
+#: inc/admin/metabox/manager.php:131
+#: inc/admin/metabox/manager.php:148
 msgid "%s Settings"
 msgstr ""
 
-#: inc/admin/metabox/manager.php:186
+#: inc/admin/metabox/manager.php:187
 msgid "Page Settings are now accessible from the top bar"
 msgstr ""
 
 #. translators: %1$s - Keyboard shortcut.   %2&s - svg icon
-#: inc/admin/metabox/manager.php:189
+#: inc/admin/metabox/manager.php:190
 msgid "Click the %1$s icon in the top bar or use the keyboard shortcut ( %2$s ) to customise the layout settings for this page"
 msgstr ""
 
-#: inc/admin/metabox/manager.php:196
+#: inc/admin/metabox/manager.php:197
 msgid "or"
 msgstr ""
 
@@ -1347,6 +1367,14 @@ msgstr ""
 
 #: inc/compatibility/block-patterns/two-columns-with-text.php:9
 msgid "Two columns with text"
+msgstr ""
+
+#: inc/compatibility/easy_digital_downloads.php:79
+msgid "Controlled by Neve"
+msgstr ""
+
+#: inc/compatibility/easy_digital_downloads.php:80
+msgid "Neve Theme controls base style settings of Easy Digital Downloads. Additional settings from other extensions might appear below."
 msgstr ""
 
 #: inc/compatibility/elementor.php:113
@@ -1478,44 +1506,52 @@ msgstr ""
 msgid "Documentation"
 msgstr ""
 
-#: inc/core/front_end.php:361
+#: inc/core/front_end.php:371
 msgid "Shop Sidebar"
 msgstr ""
 
-#: inc/core/front_end.php:396
+#: inc/core/front_end.php:406
 msgid "Add item"
 msgstr ""
 
-#: inc/core/front_end.php:397
+#: inc/core/front_end.php:407
 msgid "Add items by clicking the ones below."
 msgstr ""
 
-#: inc/core/front_end.php:398
+#: inc/core/front_end.php:408
 msgid "All items are already selected."
 msgstr ""
 
-#: inc/core/front_end.php:399
+#: inc/core/front_end.php:409
+msgid "Page Layout"
+msgstr ""
+
+#: inc/core/front_end.php:410
+msgid "Page Title"
+msgstr ""
+
+#: inc/core/front_end.php:411
 msgid "Upgrade to Neve Pro and unlock all components, including Wish List, Breadcrumbs, Custom Layouts and many more."
 msgstr ""
 
-#: inc/core/front_end.php:404
+#: inc/core/front_end.php:416
 msgid "White Label module"
 msgstr ""
 
-#: inc/core/front_end.php:405
+#: inc/core/front_end.php:417
 msgid "Scroll to Top module"
 msgstr ""
 
-#: inc/core/front_end.php:407
+#: inc/core/front_end.php:419
 #: inc/customizer/options/upsells.php:69
 msgid "Extend your header with more components and settings, build sticky/transparent headers or display them conditionally."
 msgstr ""
 
-#: inc/core/front_end.php:408
+#: inc/core/front_end.php:420
 msgid "Easily create custom headers and footers as well as adding your own custom code or content in any of the hooks locations."
 msgstr ""
 
-#: inc/core/front_end.php:410
+#: inc/core/front_end.php:422
 #: inc/customizer/options/upsells.php:68
 msgid "Get the PRO version!"
 msgstr ""
@@ -1547,7 +1583,7 @@ msgstr ""
 
 #: inc/customizer/options/base_layout_single.php:72
 #: inc/customizer/options/layout_sidebar.php:49
-#: inc/customizer/options/typography.php:317
+#: inc/customizer/options/typography.php:339
 msgid "Single Post"
 msgstr ""
 
@@ -1654,7 +1690,7 @@ msgid "Buttons"
 msgstr ""
 
 #: inc/customizer/options/buttons.php:103
-#: inc/customizer/options/buttons.php:311
+#: inc/customizer/options/buttons.php:312
 msgid "Button Text"
 msgstr ""
 
@@ -1735,148 +1771,165 @@ msgstr ""
 msgid "Customize the default button styles"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:82
+#: inc/customizer/options/layout_blog.php:91
 #: inc/customizer/options/layout_sidebar.php:48
 msgid "Blog / Archive"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:100
+#: inc/customizer/options/layout_blog.php:109
 msgid "Blog Layout"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:123
+#: inc/customizer/options/layout_blog.php:132
 msgid "List"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:127
+#: inc/customizer/options/layout_blog.php:136
 msgid "Covers"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:131
+#: inc/customizer/options/layout_blog.php:140
 msgid "Grid"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:150
+#: inc/customizer/options/layout_blog.php:159
 msgid "Columns"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:211
+#: inc/customizer/options/layout_blog.php:220
 msgid "Alternating layout"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:230
+#: inc/customizer/options/layout_blog.php:239
 msgid "Enable Masonry"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:248
+#: inc/customizer/options/layout_blog.php:257
+#: inc/customizer/options/layout_blog.php:294
+msgid "Featured Post"
+msgstr ""
+
+#: inc/customizer/options/layout_blog.php:277
+msgid "Enable featured post section"
+msgstr ""
+
+#: inc/customizer/options/layout_blog.php:299
+msgid "Latest Post"
+msgstr ""
+
+#: inc/customizer/options/layout_blog.php:300
+msgid "Sticky Post"
+msgstr ""
+
+#: inc/customizer/options/layout_blog.php:321
 msgid "Ordering and Content"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:268
+#: inc/customizer/options/layout_blog.php:341
 msgid "Post Pagination"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:273
-#: inc/customizer/options/layout_blog.php:275
+#: inc/customizer/options/layout_blog.php:346
+#: inc/customizer/options/layout_blog.php:348
 msgid "Number"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:274
+#: inc/customizer/options/layout_blog.php:347
 msgid "Infinite Scroll"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:288
+#: inc/customizer/options/layout_blog.php:361
 #: inc/customizer/options/layout_single_post.php:149
-#: assets/apps/customizer-controls/src/ordering/OrderingComponent.js:96
+#: assets/apps/customizer-controls/src/ordering/OrderingComponent.js:98
 msgid "Thumbnail"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:289
+#: inc/customizer/options/layout_blog.php:362
 #: inc/customizer/options/layout_single_post.php:148
-#: assets/apps/customizer-controls/src/ordering/OrderingComponent.js:90
+#: assets/apps/customizer-controls/src/ordering/OrderingComponent.js:92
 msgid "Title & Meta"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:290
+#: inc/customizer/options/layout_blog.php:363
 msgid "Excerpt"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:301
+#: inc/customizer/options/layout_blog.php:374
 msgid "Post Content Order"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:318
+#: inc/customizer/options/layout_blog.php:391
 msgid "Excerpt Length"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:341
+#: inc/customizer/options/layout_blog.php:414
 msgid "Thumbnail Shadow"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:368
+#: inc/customizer/options/layout_blog.php:441
 #: inc/customizer/options/layout_single_post.php:71
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:536
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:574
 msgid "Post Meta"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:390
+#: inc/customizer/options/layout_blog.php:463
 #: inc/customizer/options/layout_single_post.php:256
 #: inc/customizer/options/layout_single_product.php:107
-#: inc/views/partials/post_meta.php:180
+#: inc/views/partials/post_meta.php:185
 msgid "Category"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:391
+#: inc/customizer/options/layout_blog.php:464
 #: inc/customizer/options/layout_single_post.php:257
-#: inc/views/partials/post_meta.php:181
+#: inc/views/partials/post_meta.php:186
 msgid "Date"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:392
+#: inc/customizer/options/layout_blog.php:465
 #: inc/customizer/options/layout_single_post.php:153
 #: inc/customizer/options/layout_single_post.php:161
 #: inc/customizer/options/layout_single_post.php:258
-#: inc/views/partials/post_meta.php:182
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:531
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:540
+#: inc/views/partials/post_meta.php:187
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:569
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:578
 msgid "Comments"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:404
+#: inc/customizer/options/layout_blog.php:477
 #: inc/customizer/options/layout_single_post.php:270
 msgid "Meta Order"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:424
+#: inc/customizer/options/layout_blog.php:497
 #: inc/customizer/options/layout_single_post.php:290
 msgid "Separator"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:425
+#: inc/customizer/options/layout_blog.php:498
 #: inc/customizer/options/layout_single_post.php:291
 msgid "For special characters make sure to use Unicode. For example > can be displayed using \\003E."
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:439
+#: inc/customizer/options/layout_blog.php:512
 #: inc/customizer/options/layout_single_post.php:306
 msgid "Show Author Avatar"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:455
+#: inc/customizer/options/layout_blog.php:528
 #: inc/customizer/options/layout_single_post.php:323
 msgid "Avatar Size"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:509
+#: inc/customizer/options/layout_blog.php:582
 #: inc/customizer/options/layout_single_post.php:375
 msgid "Use last updated date instead of the published one"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:643
+#: inc/customizer/options/layout_blog.php:732
 msgid "Customize Typography for the Archive page"
 msgstr ""
 
-#: inc/customizer/options/layout_blog.php:645
+#: inc/customizer/options/layout_blog.php:734
 msgid "here"
 msgstr ""
 
@@ -1925,20 +1978,20 @@ msgstr ""
 msgid "Sitewide Content Width (%)"
 msgstr ""
 
-#: inc/customizer/options/layout_sidebar.php:243
+#: inc/customizer/options/layout_sidebar.php:251
 msgid "Sidebar Layout"
 msgstr ""
 
-#: inc/customizer/options/layout_sidebar.php:267
+#: inc/customizer/options/layout_sidebar.php:275
 msgid "Content Width (%)"
 msgstr ""
 
 #. translators: %s is edit page link
-#: inc/customizer/options/layout_sidebar.php:315
+#: inc/customizer/options/layout_sidebar.php:323
 msgid "Note: It seems that the shop page has an individual sidebar layout already set. To be able to control the layout from here, %s your page and set the sidebar to \"Inherit\"."
 msgstr ""
 
-#: inc/customizer/options/layout_sidebar.php:319
+#: inc/customizer/options/layout_sidebar.php:327
 msgid "edit"
 msgstr ""
 
@@ -1960,16 +2013,16 @@ msgstr ""
 
 #: inc/customizer/options/layout_single_post.php:150
 #: inc/customizer/options/layout_single_post.php:158
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:529
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:538
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:567
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:576
 msgid "Content"
 msgstr ""
 
 #: inc/customizer/options/layout_single_post.php:151
 #: inc/customizer/options/layout_single_post.php:159
-#: inc/views/partials/post_meta.php:334
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:530
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:539
+#: inc/views/partials/post_meta.php:349
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:568
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:577
 msgid "Tags"
 msgstr ""
 
@@ -2008,6 +2061,7 @@ msgid "Exclusive Products"
 msgstr ""
 
 #: inc/customizer/options/layout_single_product.php:92
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:425
 msgid "Title"
 msgstr ""
 
@@ -2015,8 +2069,8 @@ msgstr ""
 #: assets/apps/customizer-controls/src/typeface/Typeface.js:97
 #: assets/apps/customizer-controls/src/typeface/Typeface.js:128
 #: assets/apps/customizer-controls/src/typeface/Typeface.js:149
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:208
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:212
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:214
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:218
 msgid "None"
 msgstr ""
 
@@ -2024,19 +2078,19 @@ msgstr ""
 msgid "All"
 msgstr ""
 
-#: inc/customizer/options/main.php:87
+#: inc/customizer/options/main.php:86
 msgid "Change main font"
 msgstr ""
 
-#: inc/customizer/options/main.php:91
+#: inc/customizer/options/main.php:90
 msgid "Change headings font"
 msgstr ""
 
-#: inc/customizer/options/main.php:95
+#: inc/customizer/options/main.php:94
 msgid "Change H1 font size"
 msgstr ""
 
-#: inc/customizer/options/main.php:99
+#: inc/customizer/options/main.php:98
 msgid "Change archive font size"
 msgstr ""
 
@@ -2052,33 +2106,33 @@ msgstr ""
 msgid "Body"
 msgstr ""
 
-#: inc/customizer/options/typography.php:157
+#: inc/customizer/options/typography.php:179
 msgid "Fallback Font"
 msgstr ""
 
-#: inc/customizer/options/typography.php:164
+#: inc/customizer/options/typography.php:186
 msgid "Learn more about fallback fonts"
 msgstr ""
 
-#: inc/customizer/options/typography.php:297
-#: inc/customizer/options/typography.php:316
+#: inc/customizer/options/typography.php:319
+#: inc/customizer/options/typography.php:338
 msgid "Post title"
 msgstr ""
 
-#: inc/customizer/options/typography.php:298
+#: inc/customizer/options/typography.php:320
 msgid "Blog Archive"
 msgstr ""
 
-#: inc/customizer/options/typography.php:304
+#: inc/customizer/options/typography.php:326
 msgid "Post excerpt"
 msgstr ""
 
-#: inc/customizer/options/typography.php:310
-#: inc/customizer/options/typography.php:323
+#: inc/customizer/options/typography.php:332
+#: inc/customizer/options/typography.php:345
 msgid "Post meta"
 msgstr ""
 
-#: inc/customizer/options/typography.php:329
+#: inc/customizer/options/typography.php:351
 msgid "Comments reply title"
 msgstr ""
 
@@ -2141,7 +2195,7 @@ msgid "Sorry, but nothing matched your search terms. Please try again with some 
 msgstr ""
 
 #. translators: search result
-#: inc/views/page_header.php:77
+#: inc/views/page_header.php:85
 msgid "Search Results for: %s"
 msgstr ""
 
@@ -2193,24 +2247,24 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: inc/views/partials/post_meta.php:224
+#: inc/views/partials/post_meta.php:236
 msgid "by"
 msgstr ""
 
 #. translators: %s: Author's display name.
-#: inc/views/partials/post_meta.php:231
+#: inc/views/partials/post_meta.php:243
 msgid "Posts by %s"
 msgstr ""
 
 #. translators: %s: number of comments
-#: inc/views/partials/post_meta.php:320
+#: inc/views/partials/post_meta.php:335
 msgid "%s Comment"
 msgid_plural "%s Comments"
 msgstr[0] ""
 msgstr[1] ""
 
 #: inc/views/pluggable/pagination.php:260
-#: inc/views/template_parts.php:328
+#: inc/views/template_parts.php:448
 msgid "Pages:"
 msgstr ""
 
@@ -2226,7 +2280,7 @@ msgstr ""
 msgid "Out of stock"
 msgstr ""
 
-#: inc/views/template_parts.php:269
+#: inc/views/template_parts.php:379
 msgid "Read More"
 msgstr ""
 
@@ -2292,11 +2346,26 @@ msgid "Hover"
 msgstr ""
 
 #: assets/apps/components/src/Controls/ColorControl.js:114
+#: assets/apps/components/src/Controls/RadioIcons.js:104
 msgid "Clear"
 msgstr ""
 
 #: assets/apps/components/src/Controls/MultiSelect.js:18
 msgid "Remove Item"
+msgstr ""
+
+#: assets/apps/components/src/Controls/NumberControl.js:30
+msgid "No unit"
+msgstr ""
+
+#: assets/apps/components/src/Controls/RadioIcons.js:85
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:187
+msgid "Custom SVG"
+msgstr ""
+
+#: assets/apps/components/src/Controls/RadioIcons.js:97
+#: assets/apps/dashboard/src/Components/Options/InputForm.js:52
+msgid "Save"
 msgstr ""
 
 #: assets/apps/components/src/Controls/Sizing.js:87
@@ -2334,8 +2403,8 @@ msgstr ""
 
 #: assets/apps/customizer-controls/src/font-family/FontFamilySelector.js:58
 #: assets/apps/customizer-controls/src/font-family/FontFamilySelector.js:182
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:194
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:198
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:200
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:204
 msgid "Inherit"
 msgstr ""
 
@@ -2412,110 +2481,110 @@ msgstr ""
 msgid "Toggle Visibility"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:35
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:37
 msgid "Logo Only"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:39
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:41
 msgid "Logo - Title & Tagline"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:43
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:45
 msgid "Title & Tagline - Logo"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:47
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:49
 msgid "Logo on Top"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:54
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:56
 msgid "Plain"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:62
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:64
 msgid "Bottom Border"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:66
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:68
 msgid "Top Border"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:73
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:158
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:75
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:160
 msgid "Icon Style 2"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:77
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:154
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:79
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:156
 msgid "Icon Style 1"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:81
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:162
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:83
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:164
 msgid "Icon Style 3"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:85
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:166
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:87
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:168
 msgid "Icon Style 4"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:89
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:170
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:91
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:172
 msgid "Icon Style 5"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:93
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:174
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:95
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:176
 msgid "Icon Style 6"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:97
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:99
 msgid "WordPress Avatar"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:101
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:103
 msgid "No Icon"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:108
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:110
 msgid "Style 1"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:112
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:114
 msgid "Style 2"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:116
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:118
 msgid "Style 3"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:120
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:122
 msgid "Style 4"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:124
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:126
 msgid "Style 5"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:128
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:130
 msgid "Style 6"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:135
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:137
 msgid "Contrast"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:139
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:141
 msgid "Night"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:143
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:145
 #: assets/apps/metabox/src/components/controls/SortableItems.js:34
 msgid "Toggle"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:147
+#: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:149
 msgid "Accessibility"
 msgstr ""
 
@@ -2559,11 +2628,11 @@ msgstr ""
 msgid "Weight"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/typeface/Typeface.js:213
+#: assets/apps/customizer-controls/src/typeface/Typeface.js:214
 msgid "Line Height"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/typeface/Typeface.js:251
+#: assets/apps/customizer-controls/src/typeface/Typeface.js:256
 msgid "Letter Spacing"
 msgstr ""
 
@@ -2779,10 +2848,6 @@ msgstr ""
 msgid "An error occured. Please reload the page and try again."
 msgstr ""
 
-#: assets/apps/dashboard/src/Components/Options/InputForm.js:52
-msgid "Save"
-msgstr ""
-
 #: assets/apps/dashboard/src/Components/PluginCard.js:16
 msgid "Install"
 msgstr ""
@@ -2860,64 +2925,60 @@ msgstr ""
 msgid "Typekit Project ID is invalid"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:178
-msgid "Page Layout"
-msgstr ""
-
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:328
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:341
 msgid "Custom Content Width (%)"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:392
-msgid "Page Title"
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:394
+msgid "Note: Setting the content width over 80% might affect the sidebar width. Sidebar will ultimately disappear at 95%."
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:394
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:430
 msgid "Title alignment"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:474
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:510
 msgid "Author Avatar"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:503
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:541
 msgid "Reading Time"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:532
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:541
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:570
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:579
 msgid "Post Navigation"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:535
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:573
 msgid "Post Title"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:537
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:575
 msgid "Featured Image"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:547
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:585
 msgid "Author Biography"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:548
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:586
 msgid "Related Posts"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:549
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:587
 msgid "Sharing Icons"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:576
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:614
 msgid "Elements"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:667
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:705
 msgid "Reset all options to default"
 msgstr ""
 
-#: assets/apps/metabox/src/components/MetaFieldsManager.js:677
+#: assets/apps/metabox/src/components/MetaFieldsManager.js:715
 msgid "Return to customizer settings"
 msgstr ""
 

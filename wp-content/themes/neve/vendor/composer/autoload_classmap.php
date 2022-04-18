@@ -16,6 +16,7 @@ return array(
     'HFG\\Core\\Components\\CartIcon' => $baseDir . '/header-footer-grid/Core/Components/CartIcon.php',
     'HFG\\Core\\Components\\Copyright' => $baseDir . '/header-footer-grid/Core/Components/Copyright.php',
     'HFG\\Core\\Components\\CustomHtml' => $baseDir . '/header-footer-grid/Core/Components/CustomHtml.php',
+    'HFG\\Core\\Components\\EddCartIcon' => $baseDir . '/header-footer-grid/Core/Components/EddCartIcon.php',
     'HFG\\Core\\Components\\FooterWidgetFour' => $baseDir . '/header-footer-grid/Core/Components/FooterWidgetFour.php',
     'HFG\\Core\\Components\\FooterWidgetOne' => $baseDir . '/header-footer-grid/Core/Components/FooterWidgetOne.php',
     'HFG\\Core\\Components\\FooterWidgetThree' => $baseDir . '/header-footer-grid/Core/Components/FooterWidgetThree.php',
