@@ -14,6 +14,23 @@
             </div>
         </div>
     </div>
+    <div class="partners">
+        <div class="ucaldas">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/ucaldas.png" alt="Logotipo Universidad de Caldas">
+        </div>
+        <div class="artes-humanidades">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/facultad.png" alt="Logotipo Facultad de Artes y Humanidades">
+        </div>
+        <div class="department-dvisual">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/departamento.png" alt="Logotipo Departamento de Diseño Visual">
+        </div>
+        <div class="program-dvisual">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/programa.png" alt="Logotipo Programa de Diseño Visual">
+        </div>
+        <div class="consultorio">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/consultorio.png" alt="Logotipo Consultorio de Diseño Visual">
+        </div>
+    </div>
     <div class="background-image">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer.png" alt="imagen-fondo-footer">
     </div>

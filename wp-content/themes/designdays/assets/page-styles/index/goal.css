@@ -58,8 +58,10 @@
 }
 
 .triangle-rack img {
-    width: 100%;
+    position: absolute;
+    width: 81%;
     height: auto;
+    left: 0;
 }
 
 .goal-title {

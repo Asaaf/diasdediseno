@@ -145,39 +145,28 @@ li.link:hover::after {
 }
 
 .partners {
+    position: absolute;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    margin-top: 21px;
+    width: 100%;
+    bottom: -117px;
+    background: #3b3b3bc7;
+    padding: 12px 0px;
 }
 
 .ucaldas,
-.artes-humanidades {
-    position: relative;
-    width: calc((100% / 2) - 48px);
-    height: 69px;
-    overflow: hidden;
-}
-
-.department-dvisual {
-    position: relative;
-    height: 99px;
-    width: calc(30% - 24px);
-}
-
-.program-dvisual {
-    position: relative;
-    height: 99px;
-    width: calc(20% - 24px);
-}
-
+.artes-humanidades,
+.department-dvisual,
+.program-dvisual,
 .consultorio {
     position: relative;
-    height: 99px;
-    width: calc(30% - 24px);
+    width: calc((100% / 5) - 48px);
+    height: 69px;
+    overflow: hidden;
 }
 
 .ucaldas img,
@@ -189,7 +178,21 @@ li.link:hover::after {
     height: auto;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ucaldas img {
+    width: 111%;
+}
+
+.program-dvisual img {
+    width: 50%;
+}
+
+.department-dvisual img,
+.consultorio img {
+    width: 81%;
 }
 
 .logotipo {
