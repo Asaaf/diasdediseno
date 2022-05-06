@@ -7,7 +7,11 @@
             <?php include 'links.php' ?>
         </div>
         <div class="footer-logo pure-u-1 pure-u-lg-8-24">
-            Acá va el logo
+            <div class="logotipo">
+                <div class="logotipo-dias">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-amarillo.png" alt="logotipo-consultorio">
+                </div>
+            </div>
         </div>
     </div>
     <div class="background-image">
