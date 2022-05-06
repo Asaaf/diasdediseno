@@ -9,7 +9,7 @@
 .editor-styles-wrapper .wp-block-button.is-style-primary .wp-block-button__link, .editor-styles-wrapper .wp-block-button__link.add_to_cart_button {
   cursor: pointer;
   box-sizing: border-box;
-  background-color: var(--primaryBtnBg);
+  background: var(--primaryBtnBg);
   color: var(--primaryBtnColor);
   border-style: solid;
   border-color: currentColor;
@@ -25,7 +25,7 @@
 }
 
 .editor-styles-wrapper .wp-block-button.is-style-primary .wp-block-button__link:hover {
-  background-color: var(--primaryBtnHoverBg);
+  background: var(--primaryBtnHoverBg);
   color: var(--primaryBtnHoverColor);
   border-color: var(--primaryBtnHoverColor);
 }

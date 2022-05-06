@@ -17,7 +17,7 @@ input[type="submit"],
 input[type="reset"], .wp-block-search .wp-block-search__button {
   cursor: pointer;
   box-sizing: border-box;
-  background-color: var(--primaryBtnBg);
+  background: var(--primaryBtnBg);
   color: var(--primaryBtnColor);
   border-style: solid;
   border-color: currentColor;
@@ -37,7 +37,7 @@ input[type="button"]:hover,
 .btn:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-  background-color: var(--primaryBtnHoverBg);
+  background: var(--primaryBtnHoverBg);
   color: var(--primaryBtnHoverColor);
   border-color: var(--primaryBtnHoverColor);
 }
@@ -88,7 +88,7 @@ form.wp-block-search input.wp-block-search__input,
   border-color: var(--formFieldBorderColor);
   border-width: var(--formFieldBorderWidth);
   border-radius: var(--formFieldBorderRadius, 3px);
-  background-color: var(--formFieldBgColor);
+  background: var(--formFieldBgColor);
   color: var(--formFieldColor);
   padding: var(--formFieldPadding);
   text-transform: var(--formFieldTextTransform);
@@ -271,7 +271,6 @@ mark {
 
 html {
   font-size: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -754,7 +753,7 @@ blockquote.is-style-large.wp-block-quote > p {
 }
 
 .nav-ul .sub-menu {
-  background-color: var(--bgColor, var(--overlayColor));
+  background: var(--bgColor, var(--overlayColor));
   z-index: 100;
   position: absolute;
   top: 100%;
@@ -826,10 +825,12 @@ blockquote.is-style-large.wp-block-quote > p {
 
 .header-menu-sidebar .nav-ul .sub-menu.dropdown-open {
   display: block;
+  padding-left: 10px;
 }
 
 .header-menu-sidebar .nav-ul.dropdowns-expanded > li > .sub-menu {
   display: block;
+  padding-left: 10px;
 }
 
 .header-menu-sidebar .nav-ul.dropdowns-expanded > li > a .caret-wrap {
@@ -1478,7 +1479,7 @@ body .layout-grid > .article-content-col,
 }
 
 .cover-post::after {
-  background-color: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.75);
   content: "";
   position: absolute;
   left: 0;
@@ -1650,7 +1651,7 @@ body .layout-grid > .article-content-col,
 }
 
 .nv-overlay {
-  background-color: var(--bgColor, var(--nv-dark-bg));
+  background: var(--bgColor, var(--nv-dark-bg));
   mix-blend-mode: var(--blendMode, normal);
   opacity: calc(var(--opacity) / 100);
   position: absolute;
@@ -2387,18 +2388,17 @@ body.elementor-page .wrapper {
   display: flex;
 }
 
+#header-grid.global-styled:not(.neve-transparent-header):not(.has-sticky-rows--mobile):not(.has-sticky-rows--desktop) {
+  position: relative;
+}
+
 #header-grid.global-styled:not(.neve-transparent-header) {
   background: var(--bgColor);
-  position: relative;
-  background-image: var(--bgImage, none);
+  background-image: var(--bgImage, var(--bgColor, none));
   background-position: var(--bgPosition, center);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: var(--bgAttachment);
-}
-
-#header-grid.global-styled:not(.neve-transparent-header).has-sticky-rows--desktop {
-  position: fixed;
 }
 
 #header-grid.global-styled:not(.neve-transparent-header)::before {

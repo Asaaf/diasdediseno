@@ -7,7 +7,7 @@
 .nv-sidebar-wrap .button.edd-add-to-cart {
   cursor: pointer;
   box-sizing: border-box;
-  background-color: var(--primaryBtnBg);
+  background: var(--primaryBtnBg);
   color: var(--primaryBtnColor);
   border-style: solid;
   border-color: currentColor;
@@ -29,7 +29,7 @@
 .widget_edd_cart_widget .edd_checkout a:hover,
 .nv-sidebar-wrap a.edd_go_to_checkout:hover,
 .nv-sidebar-wrap .button.edd-add-to-cart:hover {
-  background-color: var(--primaryBtnHoverBg);
+  background: var(--primaryBtnHoverBg);
   color: var(--primaryBtnHoverColor);
   border-color: var(--primaryBtnHoverColor);
 }

@@ -1502,7 +1502,7 @@ body .layout-grid > .article-content-col, .layout-grid {
 }
 
 .cover-post:after {
-  background-color: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.75);
   content: '';
   position: absolute;
   right: 0;

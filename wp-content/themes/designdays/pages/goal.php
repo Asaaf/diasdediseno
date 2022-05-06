@@ -14,15 +14,16 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/triangle-rack.png" alt="">
                     </div>
                     <div class="goal-title">
-                        OBJETIVO
+                        <?php
+                        $post = get_post(43);
+                        echo $post->post_title;
+                        ?>
                     </div>
                 </div>
                 <div class="goal-description">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab labore optio corrupti modi facilis. Consequatur delectus, omnis pariatur officiis non vero eum temporibus animi id cum perferendis voluptate earum esse!
-                    Quisquam libero sapiente, unde veniam saepe earum quis quaerat eum qui fuga facilis sint beatae. Esse et voluptates consectetur unde ullam animi, dicta ea. Inventore consequatur eos hic natus expedita!
-                    Perferendis quia, reiciendis alias tenetur iusto deserunt debitis, eveniet ratione adipisci consequuntur similique laudantium soluta hic sint ut illo ea ex modi. Saepe reprehenderit eius cumque delectus, consequuntur laborum beatae.
-                    Provident, quidem. Libero eum sed, tempore temporibus commodi totam. Exercitationem sit, atque nulla laboriosam eius eum hic ullam repellendus debitis, perferendis rem iure quas fugit nam omnis numquam nisi nemo!
-                    Nesciunt corporis, magnam expedita reiciendis voluptate sit deserunt, quo ratione quisquam porro eveniet qui exercitationem quibusdam quae, vitae tenetur debitis itaque voluptatibus non rerum minus aliquam! Recusandae unde adipisci accusamus!
+                    <?php
+                    echo $post->post_content;
+                    ?>
                 </div>
             </div>
         </div>

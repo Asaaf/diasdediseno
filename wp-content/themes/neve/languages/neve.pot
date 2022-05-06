@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-04-06T15:31:55+00:00\n"
+"POT-Creation-Date: 2022-05-05T08:13:19+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: neve\n"
@@ -128,7 +128,7 @@ msgstr ""
 #: header-footer-grid/Core/Builder/Abstract_Builder.php:345
 #: header-footer-grid/Core/Builder/Abstract_Builder.php:347
 #: inc/admin/metabox/main.php:53
-#: inc/customizer/options/base_layout_single.php:496
+#: inc/customizer/options/base_layout_single.php:499
 #: inc/customizer/options/layout_container.php:151
 #: assets/apps/metabox/src/components/MetaFieldsManager.js:312
 msgid "Contained"
@@ -141,13 +141,13 @@ msgstr ""
 #: header-footer-grid/Core/Builder/Abstract_Builder.php:404
 #: header-footer-grid/Core/Components/Search.php:204
 #: header-footer-grid/Core/Components/SearchResponsive.php:381
-#: inc/customizer/options/form_fields.php:189
-#: assets/apps/components/src/Controls/ButtonAppearance.js:154
+#: inc/customizer/options/form_fields.php:192
+#: assets/apps/components/src/Controls/ButtonAppearance.js:161
 msgid "Border Width"
 msgstr ""
 
 #: header-footer-grid/Core/Builder/Abstract_Builder.php:442
-#: inc/customizer/options/form_fields.php:295
+#: inc/customizer/options/form_fields.php:298
 msgid "Border Color"
 msgstr ""
 
@@ -179,7 +179,7 @@ msgstr ""
 #: header-footer-grid/Core/Components/Abstract_Component.php:1019
 #: inc/customizer/options/base_layout_single.php:256
 #: inc/customizer/options/layout_sidebar.php:181
-#: assets/apps/components/src/Controls/ButtonAppearance.js:112
+#: assets/apps/components/src/Controls/ButtonAppearance.js:119
 #: assets/apps/customizer-controls/src/non-responsive-spacing/NRSpacingComponent.js:46
 #: assets/apps/customizer-controls/src/spacing/SpacingComponent.js:128
 #: assets/apps/metabox/src/components/MetaFieldsManager.js:228
@@ -197,7 +197,7 @@ msgstr ""
 #: header-footer-grid/Core/Components/Abstract_Component.php:1027
 #: inc/customizer/options/base_layout_single.php:264
 #: inc/customizer/options/layout_sidebar.php:185
-#: assets/apps/components/src/Controls/ButtonAppearance.js:110
+#: assets/apps/components/src/Controls/ButtonAppearance.js:117
 #: assets/apps/customizer-controls/src/non-responsive-spacing/NRSpacingComponent.js:44
 #: assets/apps/customizer-controls/src/spacing/SpacingComponent.js:118
 #: assets/apps/metabox/src/components/MetaFieldsManager.js:242
@@ -253,7 +253,7 @@ msgstr ""
 
 #: header-footer-grid/Core/Builder/Abstract_Builder.php:2153
 #: inc/customizer/options/base_layout_single.php:313
-#: assets/apps/components/src/Controls/ButtonAppearance.js:109
+#: assets/apps/components/src/Controls/ButtonAppearance.js:116
 #: assets/apps/customizer-controls/src/non-responsive-spacing/NRSpacingComponent.js:43
 #: assets/apps/customizer-controls/src/spacing/SpacingComponent.js:113
 msgid "Top"
@@ -266,7 +266,7 @@ msgstr ""
 
 #: header-footer-grid/Core/Builder/Abstract_Builder.php:2161
 #: inc/customizer/options/base_layout_single.php:321
-#: assets/apps/components/src/Controls/ButtonAppearance.js:111
+#: assets/apps/components/src/Controls/ButtonAppearance.js:118
 #: assets/apps/customizer-controls/src/non-responsive-spacing/NRSpacingComponent.js:45
 #: assets/apps/customizer-controls/src/spacing/SpacingComponent.js:123
 msgid "Bottom"
@@ -306,17 +306,17 @@ msgstr ""
 msgid "Change Footer Color"
 msgstr ""
 
-#: header-footer-grid/Core/Builder/Footer.php:122
-#: header-footer-grid/Core/Builder/Footer.php:138
+#: header-footer-grid/Core/Builder/Footer.php:142
+#: header-footer-grid/Core/Builder/Footer.php:158
 msgid "Footer Top"
 msgstr ""
 
-#: header-footer-grid/Core/Builder/Footer.php:126
+#: header-footer-grid/Core/Builder/Footer.php:146
 msgid "Footer Main"
 msgstr ""
 
-#: header-footer-grid/Core/Builder/Footer.php:130
-#: header-footer-grid/Core/Builder/Footer.php:142
+#: header-footer-grid/Core/Builder/Footer.php:150
+#: header-footer-grid/Core/Builder/Footer.php:162
 msgid "Footer Bottom"
 msgstr ""
 
@@ -360,6 +360,7 @@ msgstr ""
 #: header-footer-grid/Core/Builder/Header.php:220
 #: assets/apps/components/src/Controls/ButtonAppearance.js:41
 #: assets/apps/components/src/Controls/ButtonAppearance.js:51
+#: assets/apps/components/src/Controls/ButtonAppearance.js:87
 #: assets/apps/customizer-controls/src/radio-buttons/RadioButtonsComponent.js:60
 msgid "Background"
 msgstr ""
@@ -427,7 +428,7 @@ msgstr ""
 
 #: header-footer-grid/Core/Components/Button.php:82
 #: header-footer-grid/Core/Components/Button.php:121
-#: inc/customizer/options/form_fields.php:569
+#: inc/customizer/options/form_fields.php:572
 msgid "Button"
 msgstr ""
 
@@ -460,11 +461,12 @@ msgstr ""
 #: header-footer-grid/Core/Components/CartIcon.php:177
 #: header-footer-grid/Core/Components/EddCartIcon.php:94
 #: header-footer-grid/Core/Components/SearchResponsive.php:189
-#: inc/customizer/options/base_layout_single.php:465
-#: inc/customizer/options/form_fields.php:359
+#: inc/customizer/options/base_layout_single.php:468
+#: inc/customizer/options/form_fields.php:362
 #: assets/apps/components/src/Controls/Background.js:31
 #: assets/apps/components/src/Controls/Background.js:71
-#: assets/apps/components/src/Controls/ColorControl.js:75
+#: assets/apps/components/src/Controls/ColorControl.js:91
+#: assets/apps/components/src/Controls/ColorControl.js:115
 msgid "Color"
 msgstr ""
 
@@ -679,9 +681,9 @@ msgid "Search Form"
 msgstr ""
 
 #: header-footer-grid/Core/Components/Search.php:65
-#: header-footer-grid/Core/Components/Search.php:549
+#: header-footer-grid/Core/Components/Search.php:554
 #: header-footer-grid/Core/Components/SearchResponsive.php:97
-#: header-footer-grid/Core/Components/SearchResponsive.php:790
+#: header-footer-grid/Core/Components/SearchResponsive.php:795
 #: searchform.php:10
 #: searchform.php:35
 msgid "Search for..."
@@ -705,8 +707,8 @@ msgstr ""
 
 #: header-footer-grid/Core/Components/Search.php:267
 #: header-footer-grid/Core/Components/SearchResponsive.php:444
-#: inc/customizer/options/form_fields.php:242
-#: assets/apps/components/src/Controls/ButtonAppearance.js:135
+#: inc/customizer/options/form_fields.php:245
+#: assets/apps/components/src/Controls/ButtonAppearance.js:142
 msgid "Border Radius"
 msgstr ""
 
@@ -715,8 +717,8 @@ msgstr ""
 msgid "Background Color"
 msgstr ""
 
-#: header-footer-grid/Core/Components/Search.php:332
-#: header-footer-grid/Core/Components/SearchResponsive.php:509
+#: header-footer-grid/Core/Components/Search.php:337
+#: header-footer-grid/Core/Components/SearchResponsive.php:514
 #: assets/apps/components/src/Controls/ButtonAppearance.js:45
 #: assets/apps/components/src/Controls/ButtonAppearance.js:55
 msgid "Text and Border"
@@ -938,7 +940,7 @@ msgstr ""
 
 #: header-footer-grid/Core/Settings/Manager.php:210
 #: inc/customizer/options/main.php:166
-#: assets/apps/components/src/Controls/ButtonAppearance.js:184
+#: assets/apps/components/src/Controls/ButtonAppearance.js:191
 msgid "Style"
 msgstr ""
 
@@ -1472,7 +1474,7 @@ msgctxt "Theme starter content"
 msgid "Blog"
 msgstr ""
 
-#: inc/compatibility/woocommerce.php:458
+#: inc/compatibility/woocommerce.php:520
 msgid "Filter"
 msgstr ""
 
@@ -1568,8 +1570,8 @@ msgstr ""
 msgid "Background color"
 msgstr ""
 
-#: inc/customizer/base_customizer.php:468
-#: inc/customizer/options/base_layout_single.php:376
+#: inc/customizer/base_customizer.php:471
+#: inc/customizer/options/base_layout_single.php:379
 msgid "Text color"
 msgstr ""
 
@@ -1592,7 +1594,7 @@ msgid "Header Layout"
 msgstr ""
 
 #: inc/customizer/options/base_layout_single.php:156
-#: inc/customizer/options/base_layout_single.php:457
+#: inc/customizer/options/base_layout_single.php:460
 #: assets/apps/components/src/Controls/ButtonAppearance.js:39
 msgid "Normal"
 msgstr ""
@@ -1621,67 +1623,67 @@ msgstr ""
 msgid "Overlay color"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:403
+#: inc/customizer/options/base_layout_single.php:406
 msgid "Overlay opacity"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:433
+#: inc/customizer/options/base_layout_single.php:436
 msgid "Hide featured image"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:452
+#: inc/customizer/options/base_layout_single.php:455
 msgid "Blend mode"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:458
+#: inc/customizer/options/base_layout_single.php:461
 msgid "Multiply"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:459
+#: inc/customizer/options/base_layout_single.php:462
 msgid "Screen"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:460
+#: inc/customizer/options/base_layout_single.php:463
 msgid "Overlay"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:461
+#: inc/customizer/options/base_layout_single.php:464
 msgid "Darken"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:462
+#: inc/customizer/options/base_layout_single.php:465
 msgid "Lighten"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:463
+#: inc/customizer/options/base_layout_single.php:466
 msgid "Color Dodge"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:464
+#: inc/customizer/options/base_layout_single.php:467
 msgid "Saturation"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:466
+#: inc/customizer/options/base_layout_single.php:469
 msgid "Difference"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:467
+#: inc/customizer/options/base_layout_single.php:470
 msgid "Exclusion"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:468
+#: inc/customizer/options/base_layout_single.php:471
 msgid "Hue"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:469
+#: inc/customizer/options/base_layout_single.php:472
 msgid "Luminosity"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:491
+#: inc/customizer/options/base_layout_single.php:494
 msgid "Cover container"
 msgstr ""
 
-#: inc/customizer/options/base_layout_single.php:497
+#: inc/customizer/options/base_layout_single.php:500
 msgid "Full width"
 msgstr ""
 
@@ -1708,14 +1710,14 @@ msgid "Button Appearance"
 msgstr ""
 
 #: inc/customizer/options/buttons.php:225
-#: inc/customizer/options/form_fields.php:594
+#: inc/customizer/options/form_fields.php:597
 #: inc/customizer/options/layout_single_post.php:459
 #: assets/js/src/gutenberg.js:13
 msgid "Primary"
 msgstr ""
 
 #: inc/customizer/options/buttons.php:228
-#: inc/customizer/options/form_fields.php:595
+#: inc/customizer/options/form_fields.php:598
 #: inc/customizer/options/layout_single_post.php:460
 msgid "Secondary"
 msgstr ""
@@ -1755,19 +1757,19 @@ msgstr ""
 msgid "Field Background Color"
 msgstr ""
 
-#: inc/customizer/options/form_fields.php:337
+#: inc/customizer/options/form_fields.php:340
 msgid "Input Text"
 msgstr ""
 
-#: inc/customizer/options/form_fields.php:480
+#: inc/customizer/options/form_fields.php:483
 msgid "Form Labels"
 msgstr ""
 
-#: inc/customizer/options/form_fields.php:589
+#: inc/customizer/options/form_fields.php:592
 msgid "Button Style"
 msgstr ""
 
-#: inc/customizer/options/form_fields.php:600
+#: inc/customizer/options/form_fields.php:603
 msgid "Customize the default button styles"
 msgstr ""
 
@@ -2293,43 +2295,43 @@ msgid "Search products&hellip;"
 msgstr ""
 
 #: assets/apps/components/src/Controls/Background.js:32
-#: assets/apps/components/src/Controls/Background.js:96
+#: assets/apps/components/src/Controls/Background.js:97
 msgid "Image"
 msgstr ""
 
-#: assets/apps/components/src/Controls/Background.js:84
+#: assets/apps/components/src/Controls/Background.js:85
 msgid "Use Featured Image"
 msgstr ""
 
-#: assets/apps/components/src/Controls/Background.js:95
+#: assets/apps/components/src/Controls/Background.js:96
 msgid "Fallback Image"
 msgstr ""
 
-#: assets/apps/components/src/Controls/Background.js:100
+#: assets/apps/components/src/Controls/Background.js:101
 msgid "Select from the Media Library or upload a new image"
 msgstr ""
 
-#: assets/apps/components/src/Controls/Background.js:114
+#: assets/apps/components/src/Controls/Background.js:115
 msgid "Add Image"
 msgstr ""
 
-#: assets/apps/components/src/Controls/Background.js:134
+#: assets/apps/components/src/Controls/Background.js:135
 msgid "Remove Fallback Image"
 msgstr ""
 
-#: assets/apps/components/src/Controls/Background.js:135
+#: assets/apps/components/src/Controls/Background.js:136
 msgid "Remove Image"
 msgstr ""
 
-#: assets/apps/components/src/Controls/Background.js:153
+#: assets/apps/components/src/Controls/Background.js:154
 msgid "Fixed Background"
 msgstr ""
 
-#: assets/apps/components/src/Controls/Background.js:166
+#: assets/apps/components/src/Controls/Background.js:167
 msgid "Overlay Color"
 msgstr ""
 
-#: assets/apps/components/src/Controls/Background.js:175
+#: assets/apps/components/src/Controls/Background.js:176
 msgid "Overlay Opacity"
 msgstr ""
 
@@ -2345,7 +2347,11 @@ msgstr ""
 msgid "Hover"
 msgstr ""
 
-#: assets/apps/components/src/Controls/ColorControl.js:114
+#: assets/apps/components/src/Controls/ColorControl.js:122
+msgid "Gradient"
+msgstr ""
+
+#: assets/apps/components/src/Controls/ColorControl.js:174
 #: assets/apps/components/src/Controls/RadioIcons.js:104
 msgid "Clear"
 msgstr ""
@@ -2604,7 +2610,7 @@ msgstr ""
 msgid "Item"
 msgstr ""
 
-#: assets/apps/customizer-controls/src/repeater/RepeaterItemContent.js:104
+#: assets/apps/customizer-controls/src/repeater/RepeaterItemContent.js:105
 msgid "Remove"
 msgstr ""
 

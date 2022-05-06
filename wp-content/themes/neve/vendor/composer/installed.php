@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'v3.2.2',
-        'version' => '3.2.2.0',
+        'pretty_version' => 'v3.2.4',
+        'version' => '3.2.4.0',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '7a21b78618eab3c3ac8abd05ad76274faeb395e6',
+        'reference' => '810ae165bf795d48f592e87d77a199b5fd7fb6c4',
         'name' => 'codeinwp/neve',
         'dev' => false,
     ),
     'versions' => array(
         'codeinwp/neve' => array(
-            'pretty_version' => 'v3.2.2',
-            'version' => '3.2.2.0',
+            'pretty_version' => 'v3.2.4',
+            'version' => '3.2.4.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '7a21b78618eab3c3ac8abd05ad76274faeb395e6',
+            'reference' => '810ae165bf795d48f592e87d77a199b5fd7fb6c4',
             'dev_requirement' => false,
         ),
         'codeinwp/themeisle-sdk' => array(

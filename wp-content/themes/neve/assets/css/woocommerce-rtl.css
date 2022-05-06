@@ -43,7 +43,7 @@
 .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link {
   cursor: pointer;
   box-sizing: border-box;
-  background-color: var(--primaryBtnBg);
+  background: var(--primaryBtnBg);
   color: var(--primaryBtnColor);
   border-style: solid;
   border-color: currentColor;
@@ -92,7 +92,7 @@
 .woocommerce input.button.alt:disabled:hover,
 .woocommerce input.button.alt:disabled[disabled]:hover, .wc-block-components-product-button .wp-block-button__link.add_to_cart_button:hover,
 .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link:hover {
-  background-color: var(--primaryBtnHoverBg);
+  background: var(--primaryBtnHoverBg);
   color: var(--primaryBtnHoverColor);
   border-color: var(--primaryBtnHoverColor);
 }
@@ -155,7 +155,7 @@ a.added_to_cart:hover,
   border-color: var(--formFieldBorderColor);
   border-width: var(--formFieldBorderWidth);
   border-radius: var(--formFieldBorderRadius, 3px);
-  background-color: var(--formFieldBgColor);
+  background: var(--formFieldBgColor);
   color: var(--formFieldColor);
   padding: var(--formFieldPadding);
   text-transform: var(--formFieldTextTransform);
@@ -783,7 +783,7 @@ section.exclusive ul:not(.tns-slider) li:nth-child(n+5) {
   display: flex;
 }
 
-.product-thumbnail img {
+.product-thumbnail:not([class^="elementor"]) img {
   min-width: 60px !important;
 }
 
@@ -1068,6 +1068,10 @@ section.exclusive ul:not(.tns-slider) li:nth-child(n+5) {
   height: 100% !important;
 }
 
+.nv-pay-kco form.checkout {
+  display: block;
+}
+
 .shop-sidebar {
   position: fixed;
   top: 0;
@@ -1251,10 +1255,7 @@ body .select2-dropdown {
 }
 
 .nv-nav-cart .widget_shopping_cart_content .buttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   padding: 0 20px;
-  grid-column-gap: 20px;
   margin-bottom: 20px;
 }
 
@@ -1268,6 +1269,12 @@ body .select2-dropdown {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.woocommerce-mini-cart__buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
 }
 
 .menu-item-nav-cart {
@@ -1384,7 +1391,7 @@ body.woocommerce-account table.order_details td {
 }
 
 @media (min-width: 769px) {
-  .product-thumbnail img {
+  .product-thumbnail:not([class^="elementor"]) img {
     min-width: 120px !important;
   }
   .woocommerce table.shop_table.cart {
