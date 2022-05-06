@@ -61,14 +61,133 @@ textarea.input-field {
     font-weight: 100;
     padding: 12px 0px;
     cursor: pointer;
+    transition: all 0.3s linear;
+    z-index: 3;
 }
 
-.send::after {
+.btn-send {
+    position: relative;
+}
+
+.btn-send::after {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     background: white;
-    width: 100%;
+    width: 0%;
     height: 100%;
+    transition: all 0.3s linear;
+}
+
+.btn-send:hover .send {
+    font-weight: 600;
+    color: var(--magenta);
+    padding-left: 21px;
+}
+
+.btn-send:hover::after {
+    width: 30%;
+}
+
+h1.contact-title {
+    font-family: var(--primary-font);
+    color: white;
+    font-weight: 400;
+}
+
+h2.title-links {
+    color: white;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    margin-top: 27px;
+}
+
+ul.interest-links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+    font-family: var(--primary-font);
+    font-weight: 100;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+li.link {
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s linear;
+}
+
+li.link::after {
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: white;
+    transition: all 0.3s linear;
+}
+
+li.link:hover {
+    font-weight: 400;
+    padding-left: 12px;
+}
+
+li.link:hover::after {
+    width: 45px;
+}
+
+.partners {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.ucaldas,
+.artes-humanidades {
+    position: relative;
+    width: calc((100% / 2) - 48px);
+    height: 69px;
+    overflow: hidden;
+}
+
+.department-dvisual {
+    position: relative;
+    height: 99px;
+    width: calc(30% - 24px);
+}
+
+.program-dvisual {
+    position: relative;
+    height: 99px;
+    width: calc(20% - 24px);
+}
+
+.consultorio {
+    position: relative;
+    height: 99px;
+    width: calc(30% - 24px);
+}
+
+.ucaldas img,
+.artes-humanidades img,
+.department-dvisual img,
+.program-dvisual img,
+.consultorio img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }

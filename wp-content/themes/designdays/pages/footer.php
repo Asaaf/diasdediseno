@@ -4,7 +4,7 @@
             <?php include 'contact-form.php' ?>
         </div>
         <div class="interest-links pure-u-1 pure-u-lg-8-24">
-            Enlaces de interes
+            <?php include 'links.php' ?>
         </div>
         <div class="footer-logo pure-u-1 pure-u-lg-8-24">
             Acá va el logo
