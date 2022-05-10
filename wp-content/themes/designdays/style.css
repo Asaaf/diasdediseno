@@ -12,11 +12,14 @@ Tags: responsive, theme wordpress, design days
 /*---> INDEX <---*/
 
 @import url(assets/page-styles/index/cover.css);
-@import url(assets/page-styles/index/about.css);
-@import url(assets/page-styles/index/goal.css);
-@import url(assets/page-styles/index/category.css);
-@import url(assets/page-styles/index/programming.css);
 @import url(assets/page-styles/index/cover-responsive.css);
+@import url(assets/page-styles/index/about.css);
+@import url(assets/page-styles/index/about-responsive.css);
+@import url(assets/page-styles/index/goal.css);
+@import url(assets/page-styles/index/goal-responsive.css);
+@import url(assets/page-styles/index/category.css);
+@import url(assets/page-styles/index/categories-responsive.css);
+@import url(assets/page-styles/index/programming.css);
 @import url(assets/page-styles/index/footer.css);
 :root {
     --yellow: #FAE400;

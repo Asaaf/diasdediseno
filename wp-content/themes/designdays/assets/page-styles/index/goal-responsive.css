@@ -1,0 +1,22 @@
+@media only screen and (max-width: 35.5em) {
+    .goal-title {
+        margin-top: 0px;
+    }
+    .logo-section {
+        display: none;
+    }
+    .goal-description {
+        padding: 18px;
+    }
+    .goal-center {
+        position: relative;
+        top: initial;
+        transform: initial;
+    }
+    .goal-container-second-section {
+        margin-top: 0;
+    }
+    .goal-container {
+        height: auto;
+    }
+}
