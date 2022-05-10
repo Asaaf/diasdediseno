@@ -23,4 +23,7 @@
     .right-arrow-background {
         width: 48px;
     }
+    .right-arrow-background:after {
+        left: -45px;
+    }
 }
