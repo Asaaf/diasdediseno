@@ -1,4 +1,4 @@
-<div class="about">
+<div class="about" id="about">
     <div class="content pure-g">
         <div class="pure-u-1 pure-u-lg-12-24">
             <div class="about-container-section">

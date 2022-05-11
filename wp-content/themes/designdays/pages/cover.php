@@ -25,3 +25,10 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/down-arrow-cover.png" alt="Sobre el evento">
     </div>
 </div>
+<script>
+    var element = document.querySelector("#about");
+    element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'end'
+    });
+</script>

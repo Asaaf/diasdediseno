@@ -63,7 +63,7 @@ h1.category-main-title {
 
 div#lets-talk {
     background: var(--yellow);
-    counter-reset: var(--cromatic-black);
+    color: var(--cromatic-black);
 }
 
 div#seven-by-seven {
