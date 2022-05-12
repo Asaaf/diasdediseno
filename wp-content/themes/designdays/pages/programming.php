@@ -2,13 +2,13 @@
     <div class="programming-container">
         <h1 class="programming-title">PROGRAMACIÓN</h1>
         <div class="arrow-container">
-            <div class="left-arrow"></div>
-            <div class="right-arrow"></div>
+            <div class="left-arrow" id="left"></div>
+            <div class="right-arrow" id="right"></div>
         </div>
         <div class="events-container">
 
             <div class="right-arrow-background"></div>
-            <div class="all-events-container">
+            <div class="all-events-container" id="events">
                 <?php
                 for ($i = 0; $i < 10; $i++) {
                 ?>
@@ -37,3 +37,8 @@
         </div>
     </div>
 </div>
+<script>
+    $("#left").click(function() {
+        $("#events").css({"margin-left":"-100px"});
+    });
+</script>

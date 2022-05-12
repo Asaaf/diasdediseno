@@ -77,22 +77,21 @@ textarea.input-field {
 .btn-send::after {
     content: "";
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     background: white;
-    width: 0%;
-    height: 100%;
+    width: 0px;
+    height: 3px;
     transition: all 0.3s linear;
 }
 
 .btn-send:hover .send {
     font-weight: 600;
-    color: var(--magenta);
     padding-left: 21px;
 }
 
 .btn-send:hover::after {
-    width: 30%;
+    width: 15%;
 }
 
 h1.contact-title {

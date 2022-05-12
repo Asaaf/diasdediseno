@@ -32,6 +32,7 @@
     </div>
 
     <script>
+        /*
         $(document).ready(function() {
             $('#fullpage').fullpage({
                 //options here
@@ -43,6 +44,7 @@
             //methods
             $.fn.fullpage.setAllowScrolling(false);
         });
+        */
     </script>
 </body>
 
