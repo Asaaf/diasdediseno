@@ -1,11 +1,12 @@
 .footer-container {
+    height: 600px;
     position: relative;
 }
 
 .background-image {
     overflow: hidden;
     width: 100%;
-    height: 450px;
+    height: 600px;
     position: absolute;
     top: 0;
     left: 0;
@@ -13,8 +14,12 @@
 }
 
 .background-image img {
-    width: 132%;
+    position: absolute;
+    width: 180%;
     height: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .contact-form-container {
@@ -153,7 +158,7 @@ li.link:hover::after {
     justify-content: center;
     align-items: center;
     width: 100%;
-    bottom: -117px;
+    bottom: 0px;
     background: #3b3b3bc7;
     padding: 12px 0px;
 }
@@ -165,7 +170,7 @@ li.link:hover::after {
 .consultorio {
     position: relative;
     width: calc((100% / 5) - 48px);
-    height: 69px;
+    height: 108px;
     overflow: hidden;
 }
 
@@ -198,7 +203,7 @@ li.link:hover::after {
 .logotipo {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 423px;
 }
 
 .logotipo-dias {

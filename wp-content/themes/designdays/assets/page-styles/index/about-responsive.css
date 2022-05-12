@@ -56,3 +56,13 @@
         height: auto;
     }
 }
+
+@media only screen and (min-width: 120em) {
+    .content-about {
+        line-height: 33px;
+        font-size: 21px;
+    }
+    .about-image {
+        height: 735px;
+    }
+}

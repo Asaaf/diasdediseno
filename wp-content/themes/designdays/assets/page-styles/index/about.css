@@ -47,10 +47,10 @@
 }
 
 .content-about {
-    padding: 33px 24px 33px 99px;
+    padding: 33px 33px 33px 99px;
     font-family: var(--primary-font);
     line-height: 24px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .about-image {
