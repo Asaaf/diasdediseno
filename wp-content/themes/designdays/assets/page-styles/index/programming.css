@@ -31,6 +31,9 @@
     height: 315px;
     overflow: hidden;
     margin: 6px;
+    box-shadow: inset 7px 0px 12px #00000033;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
 }
 
 .event-background {

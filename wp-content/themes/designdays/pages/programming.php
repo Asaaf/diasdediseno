@@ -38,7 +38,29 @@
     </div>
 </div>
 <script>
+    let i = 0;
+    let pos = 250;
     $("#left").click(function() {
-        $("#events").css({"margin-left":"-100px"});
+        console.log("left: " + pos);
+        if (i <= 10) {
+            pos = pos - 250;
+            $("#events").css({
+                "margin-left": pos + "px",
+                "transition": "all 0.3s linear"
+            });
+            i++;
+        }
+    });
+
+    $("#right").click(function() {
+        console.log("right: " + pos);
+        if (i >= 0) {
+            pos = pos + 250;
+            $("#events").css({
+                "margin-left": pos + "px",
+                "transition": "all 0.3s linear"
+            });
+            i--;
+        }
     });
 </script>
