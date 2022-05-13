@@ -1,65 +1,65 @@
 .llms-button-primary, .llms-button-action {
   cursor: pointer;
   box-sizing: border-box;
-  background: var(--primaryBtnBg);
-  color: var(--primaryBtnColor);
+  background: var(--primarybtnbg);
+  color: var(--primarybtncolor);
   border-style: solid;
   border-color: currentColor;
   fill: currentColor;
-  border-width: var(--primaryBtnBorderWidth, 0);
-  border-radius: var(--primaryBtnBorderRadius, 3px);
-  padding: var(--primaryBtnPadding, 13px 15px);
-  font-weight: var(--btnFontWeight, 700);
-  font-size: var(--btnFs, var(--bodyFontSize));
-  line-height: var(--btnLineHeight, 1.6);
-  letter-spacing: var(--btnLetterSpacing, var(--bodyLetterSpacing));
-  text-transform: var(--btnTextTransform, none);
+  border-width: var(--primarybtnborderwidth, 0);
+  border-radius: var(--primarybtnborderradius, 3px);
+  padding: var(--primarybtnpadding, 13px 15px);
+  font-weight: var(--btnfontweight, 700);
+  font-size: var(--btnfs, var(--bodyfontsize));
+  line-height: var(--btnlineheight, 1.6);
+  letter-spacing: var(--btnletterspacing, var(--bodyletterspacing));
+  text-transform: var(--btntexttransform, none);
 }
 
 .llms-button-primary:hover, .llms-button-action:hover {
-  background: var(--primaryBtnHoverBg);
-  color: var(--primaryBtnHoverColor);
-  border-color: var(--primaryBtnHoverColor);
+  background: var(--primarybtnhoverbg);
+  color: var(--primarybtnhovercolor);
+  border-color: var(--primarybtnhovercolor);
 }
 
 .llms-button-secondary {
   cursor: pointer;
   box-sizing: border-box;
-  background-color: var(--secondaryBtnBg);
-  color: var(--secondaryBtnColor);
+  background-color: var(--secondarybtnbg);
+  color: var(--secondarybtncolor);
   border-style: solid;
   border-color: currentColor;
   fill: currentColor;
-  border-width: var(--secondaryBtnBorderWidth, 0);
-  border-radius: var(--secondaryBtnBorderRadius, 3px);
-  padding: var(--secondaryBtnPadding, 7px 12px);
-  font-weight: var(--btnFontWeight, 700);
-  font-size: var(--btnFs, var(--bodyFontSize));
-  line-height: var(--btnLineHeight, 1.6);
-  letter-spacing: var(--btnLetterSpacing);
-  text-transform: var(--btnTextTransform, none);
+  border-width: var(--secondarybtnborderwidth, 0);
+  border-radius: var(--secondarybtnborderradius, 3px);
+  padding: var(--secondarybtnpadding, 7px 12px);
+  font-weight: var(--btnfontweight, 700);
+  font-size: var(--btnfs, var(--bodyfontsize));
+  line-height: var(--btnlineheight, 1.6);
+  letter-spacing: var(--btnletterspacing);
+  text-transform: var(--btntexttransform, none);
 }
 
 .llms-button-secondary:hover {
-  background-color: var(--secondaryBtnHoverBg);
-  color: var(--secondaryBtnHoverColor);
-  border-color: var(--secondaryBtnHoverColor);
+  background-color: var(--secondarybtnhoverbg);
+  color: var(--secondarybtnhovercolor);
+  border-color: var(--secondarybtnhovercolor);
 }
 
 .single-course .review_box input:read-write, .single-course .review_box textarea {
   border-style: solid;
-  border-color: var(--formFieldBorderColor);
-  border-width: var(--formFieldBorderWidth);
-  border-radius: var(--formFieldBorderRadius, 3px);
-  background: var(--formFieldBgColor);
-  color: var(--formFieldColor);
-  padding: var(--formFieldPadding);
-  text-transform: var(--formFieldTextTransform);
-  font-weight: var(--formFieldFontWeight);
-  font-family: var(--bodyFontFamily);
-  font-size: var(--formFieldFontSize);
-  letter-spacing: var(--formFieldLetterSpacing);
-  line-height: var(--formFieldLineHeight);
+  border-color: var(--formfieldbordercolor);
+  border-width: var(--formfieldborderwidth);
+  border-radius: var(--formfieldborderradius, 3px);
+  background: var(--formfieldbgcolor);
+  color: var(--formfieldcolor);
+  padding: var(--formfieldpadding);
+  text-transform: var(--formfieldtexttransform);
+  font-weight: var(--formfieldfontweight);
+  font-family: var(--bodyfontfamily);
+  font-size: var(--formfieldfontsize);
+  letter-spacing: var(--formfieldletterspacing);
+  line-height: var(--formfieldlineheight);
 }
 
 .llms-loop-list {
@@ -169,10 +169,10 @@
 }
 
 .llms-form-field .select2-container .select2-selection--single {
-  background: var(--formFieldBgColor);
+  background: var(--formfieldbgcolor);
   border-style: solid;
-  border-color: var(--formFieldBorderColor);
-  border-width: var(--formFieldBorderWidth);
+  border-color: var(--formfieldbordercolor);
+  border-width: var(--formfieldborderwidth);
 }
 
 .lifterlms .select2-container--default .select2-selection--single .select2-selection__rendered,
@@ -203,15 +203,15 @@ td .llms-progress .llms-progress-bar {
 }
 
 .llms-progress .progress-bar-complete {
-  background-color: var(--lLmsPrimaryColor, var(--nv-primary-accent));
+  background-color: var(--llmsprimarycolor, var(--nv-primary-accent));
 }
 
 .llms-donut {
-  color: var(--lLmsPrimaryColor, var(--nv-primary-accent));
+  color: var(--llmsprimarycolor, var(--nv-primary-accent));
 }
 
 .llms-donut svg path {
-  stroke: var(--lLmsPrimaryColor, var(--nv-primary-accent));
+  stroke: var(--llmsprimarycolor, var(--nv-primary-accent));
 }
 
 .llms-certificate-container {

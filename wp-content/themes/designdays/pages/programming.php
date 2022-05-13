@@ -1,3 +1,25 @@
+<?php
+/*
+$the_query = new WP_Query(array(
+    'category_name' => 'Programación',
+    'posts_per_page' => 5
+));
+
+if ($the_query->have_posts()) {
+    while ($the_query->have_posts()) {
+        $the_query->the_post();
+        var_dump($the_query);
+    }
+}
+*/
+
+$events = tribe_get_events([
+    'posts_per_page' => 5,
+]);
+
+var_dump($events);
+
+?>
 <div class="section">
     <div class="programming-container">
         <h1 class="programming-title">PROGRAMACIÓN</h1>

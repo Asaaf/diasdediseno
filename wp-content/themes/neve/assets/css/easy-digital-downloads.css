@@ -7,19 +7,19 @@
 .nv-sidebar-wrap .button.edd-add-to-cart {
   cursor: pointer;
   box-sizing: border-box;
-  background: var(--primaryBtnBg);
-  color: var(--primaryBtnColor);
+  background: var(--primarybtnbg);
+  color: var(--primarybtncolor);
   border-style: solid;
   border-color: currentColor;
   fill: currentColor;
-  border-width: var(--primaryBtnBorderWidth, 0);
-  border-radius: var(--primaryBtnBorderRadius, 3px);
-  padding: var(--primaryBtnPadding, 13px 15px);
-  font-weight: var(--btnFontWeight, 700);
-  font-size: var(--btnFs, var(--bodyFontSize));
-  line-height: var(--btnLineHeight, 1.6);
-  letter-spacing: var(--btnLetterSpacing, var(--bodyLetterSpacing));
-  text-transform: var(--btnTextTransform, none);
+  border-width: var(--primarybtnborderwidth, 0);
+  border-radius: var(--primarybtnborderradius, 3px);
+  padding: var(--primarybtnpadding, 13px 15px);
+  font-weight: var(--btnfontweight, 700);
+  font-size: var(--btnfs, var(--bodyfontsize));
+  line-height: var(--btnlineheight, 1.6);
+  letter-spacing: var(--btnletterspacing, var(--bodyletterspacing));
+  text-transform: var(--btntexttransform, none);
 }
 
 .nv-edd a.button:hover,
@@ -29,9 +29,9 @@
 .widget_edd_cart_widget .edd_checkout a:hover,
 .nv-sidebar-wrap a.edd_go_to_checkout:hover,
 .nv-sidebar-wrap .button.edd-add-to-cart:hover {
-  background: var(--primaryBtnHoverBg);
-  color: var(--primaryBtnHoverColor);
-  border-color: var(--primaryBtnHoverColor);
+  background: var(--primarybtnhoverbg);
+  color: var(--primarybtnhovercolor);
+  border-color: var(--primarybtnhovercolor);
 }
 
 .nv-edd a.button,
@@ -196,7 +196,7 @@ form#edd_profile_editor_form #edd_profile_submit_wrap {
 }
 
 .cart-icon-wrapper:hover {
-  color: var(--hoverColor, var(--color));
+  color: var(--hovercolor, var(--color));
 }
 
 .cart-icon-wrapper .nv-cart {
@@ -204,13 +204,13 @@ form#edd_profile_editor_form #edd_profile_submit_wrap {
 }
 
 .cart-icon-wrapper .nv-cart svg {
-  width: var(--iconSize);
-  height: var(--iconSize);
+  width: var(--iconsize);
+  height: var(--iconsize);
 }
 
 .cart-icon-wrapper .edd-cart-icon-label {
   margin-right: 8px;
-  font-size: var(--labelSize);
+  font-size: var(--labelsize);
 }
 
 .cart-icon-wrapper .edd-cart-count {

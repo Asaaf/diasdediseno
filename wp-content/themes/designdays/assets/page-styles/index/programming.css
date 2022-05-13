@@ -12,6 +12,9 @@
     margin: 0px 0px 0px 120px;
     overflow: hidden;
     width: calc(100% - 120px);
+    box-shadow: inset 7px 0px 12px #0000002b;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
 }
 
 .all-events-container {
@@ -31,9 +34,6 @@
     height: 315px;
     overflow: hidden;
     margin: 6px;
-    box-shadow: inset 7px 0px 12px #00000033;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
 }
 
 .event-background {

@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-05-05T08:13:19+00:00\n"
+"POT-Creation-Date: 2022-05-12T13:11:41+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: neve\n"
@@ -77,7 +77,7 @@ msgstr ""
 #: assets/apps/dashboard/src/Components/Content/Help.js:34
 #: assets/apps/dashboard/src/Components/Content/Help.js:78
 #: assets/apps/dashboard/src/Components/Content/Help.js:111
-#: assets/apps/dashboard/src/Components/ModuleCard.js:194
+#: assets/apps/dashboard/src/Components/ModuleCard.js:197
 #: assets/apps/dashboard/src/Components/PluginCard.js:27
 msgid "Learn More"
 msgstr ""
@@ -398,7 +398,7 @@ msgid "HTML"
 msgstr ""
 
 #: header-footer-grid/Core/Builder/Header.php:558
-#: inc/admin/dashboard/main.php:408
+#: inc/admin/dashboard/main.php:413
 #: inc/core/front_end.php:415
 msgid "Custom Layouts"
 msgstr ""
@@ -783,7 +783,7 @@ msgstr ""
 #: header-footer-grid/templates/components/component-cart-icon.php:27
 #: header-footer-grid/templates/components/component-search-responsive.php:46
 #: inc/views/header.php:139
-#: inc/views/layouts/layout_sidebar.php:184
+#: inc/views/layouts/layout_sidebar.php:182
 msgid "Close"
 msgstr ""
 
@@ -1039,168 +1039,168 @@ msgid "Enter your license from %1$s purchase history in order to get plugin upda
 msgstr ""
 
 #. translators: s - theme name (Neve).
-#: inc/admin/dashboard/main.php:273
+#: inc/admin/dashboard/main.php:276
 msgid "New theme update for %1$s! Please update to %2$s."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:278
-#: inc/admin/dashboard/main.php:299
+#: inc/admin/dashboard/main.php:281
+#: inc/admin/dashboard/main.php:302
 msgid "Update Now"
 msgstr ""
 
 #. translators: s - Pro plugin name (Neve Pro)
-#: inc/admin/dashboard/main.php:290
+#: inc/admin/dashboard/main.php:293
 msgid "New plugin update for %1$s! Please update to %2$s."
 msgstr ""
 
 #. translators: 1 - Theme Name (Neve), 2 - Plugin Name (Neve Pro)
-#: inc/admin/dashboard/main.php:308
+#: inc/admin/dashboard/main.php:311
 msgid "We recommend that both %1$s and %2$s are updated to the latest version to ensure optimal intercompatibility."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:323
+#: inc/admin/dashboard/main.php:328
 #: assets/apps/customizer-controls/src/logo-palette/LogoPaletteComponent.js:187
 #: assets/apps/customizer-controls/src/logo-palette/LogoPaletteComponent.js:240
 msgid "Upload Logo"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:327
+#: inc/admin/dashboard/main.php:332
 msgid "Set Colors"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:331
+#: inc/admin/dashboard/main.php:336
 msgid "Customize Fonts"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:335
+#: inc/admin/dashboard/main.php:340
 msgid "Layout Options"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:339
+#: inc/admin/dashboard/main.php:344
 msgid "Header Options"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:343
+#: inc/admin/dashboard/main.php:348
 msgid "Blog Layouts"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:347
+#: inc/admin/dashboard/main.php:352
 msgid "Footer Options"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:351
+#: inc/admin/dashboard/main.php:356
 #: inc/customizer/options/layout_sidebar.php:95
 msgid "Content / Sidebar"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:384
+#: inc/admin/dashboard/main.php:389
 msgid "Header/Footer builder"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:385
+#: inc/admin/dashboard/main.php:390
 msgid "Easily build your header and footer by dragging and dropping all the important elements in the real-time WordPress Customizer. More advanced options are available in PRO."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:390
+#: inc/admin/dashboard/main.php:395
 msgid "Page Builder Compatibility"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:391
+#: inc/admin/dashboard/main.php:396
 msgid "Neve is fully compatible with Gutenberg, the new WordPress editor and for all of you page builder fans, Neve has full compatibility with Elementor, Beaver Builder, and all the other popular page builders."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:396
+#: inc/admin/dashboard/main.php:401
 #: inc/core/front_end.php:412
 msgid "Header Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:397
+#: inc/admin/dashboard/main.php:402
 msgid "Take the header builder to a new level with new awesome components: socials, contact, breadcrumbs, language switcher, multiple HTML, sticky and transparent menu, page header builder and many more."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:402
+#: inc/admin/dashboard/main.php:407
 msgid "Page Header Builder"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:403
+#: inc/admin/dashboard/main.php:408
 msgid "The Page Header is the horizontal area that sits directly below the header and contains the page/post title. Easily design an attractive Page Header area using our dedicated builder."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:409
+#: inc/admin/dashboard/main.php:414
 msgid "Powerful Custom Layouts builder which allows you to easily create your own header, footer or custom content on any of the hook locations available in the theme."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:414
+#: inc/admin/dashboard/main.php:419
 #: inc/core/front_end.php:413
 msgid "Blog Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:415
+#: inc/admin/dashboard/main.php:420
 msgid "Give a huge boost to your entire blogging experience with features specially designed for increased user experience."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:415
+#: inc/admin/dashboard/main.php:420
 msgid "Sharing, custom article sorting, comments integrations, number of minutes needed to read an article and many more."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:420
+#: inc/admin/dashboard/main.php:425
 #: inc/core/front_end.php:418
 msgid "Elementor Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:421
+#: inc/admin/dashboard/main.php:426
 #: inc/core/front_end.php:421
 msgid "Leverage the true flexibility of Elementor with powerful addons and templates that you can import with just one click."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:426
+#: inc/admin/dashboard/main.php:431
 #: inc/core/front_end.php:414
 #: assets/apps/dashboard/src/Components/Content/Start.js:148
 msgid "WooCommerce Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:427
+#: inc/admin/dashboard/main.php:432
 #: assets/apps/dashboard/src/Components/Content/Start.js:149
 msgid "Empower your online store with awesome new features, specially designed for a smooth WooCommerce integration."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:427
+#: inc/admin/dashboard/main.php:432
 msgid "Wishlist, quick view, video products, advanced reviews, multiple dedicated layouts and many more."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:432
+#: inc/admin/dashboard/main.php:437
 msgid "LifterLMS Booster"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:433
+#: inc/admin/dashboard/main.php:438
 msgid "Make your LifterLMS pages look stunning with our PRO design options. Specially created to help you set up your online courses with minimum customizations."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:438
+#: inc/admin/dashboard/main.php:443
 msgid "Typekit(Adobe) Fonts"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:439
+#: inc/admin/dashboard/main.php:444
 msgid "The module allows for an easy way of enabling new awesome Adobe (previous Typekit) Fonts in Neve's Typography options."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:444
+#: inc/admin/dashboard/main.php:449
 msgid "White Label"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:445
+#: inc/admin/dashboard/main.php:450
 msgid "For any developer or agency out there building websites for their own clients, we've made it easy to present the theme as your own."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:450
+#: inc/admin/dashboard/main.php:455
 msgid "Scroll To Top"
 msgstr ""
 
-#: inc/admin/dashboard/main.php:451
+#: inc/admin/dashboard/main.php:456
 msgid "Simple but effective module to help you navigate back to the top of the really long pages."
 msgstr ""
 
-#: inc/admin/dashboard/main.php:456
+#: inc/admin/dashboard/main.php:461
 msgid "See all PRO features"
 msgstr ""
 
@@ -2423,7 +2423,7 @@ msgid "Font Family"
 msgstr ""
 
 #: assets/apps/customizer-controls/src/font-family/FontFamilySelector.js:201
-#: assets/apps/dashboard/src/Components/Notification.js:116
+#: assets/apps/dashboard/src/Components/Notification.js:142
 msgid "In Progress"
 msgstr ""
 
@@ -2834,23 +2834,23 @@ msgstr ""
 msgid "Upgrade"
 msgstr ""
 
-#: assets/apps/dashboard/src/Components/ModuleCard.js:161
+#: assets/apps/dashboard/src/Components/ModuleCard.js:165
 msgid "Module Activated"
 msgstr ""
 
-#: assets/apps/dashboard/src/Components/ModuleCard.js:165
+#: assets/apps/dashboard/src/Components/ModuleCard.js:169
 msgid "Module Deactivated."
 msgstr ""
 
-#: assets/apps/dashboard/src/Components/ModuleCard.js:175
+#: assets/apps/dashboard/src/Components/ModuleCard.js:179
 msgid "Could not activate module. Please try again."
 msgstr ""
 
-#: assets/apps/dashboard/src/Components/Notification.js:89
+#: assets/apps/dashboard/src/Components/Notification.js:115
 msgid "Done!"
 msgstr ""
 
-#: assets/apps/dashboard/src/Components/Notification.js:96
+#: assets/apps/dashboard/src/Components/Notification.js:122
 msgid "An error occured. Please reload the page and try again."
 msgstr ""
 
