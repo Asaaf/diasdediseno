@@ -16,9 +16,7 @@ if ($the_query->have_posts()) {
 $events = tribe_get_events([
     'posts_per_page' => 5,
 ]);
-
-var_dump($events);
-
+//var_dump(tribe_get_event(0));
 ?>
 <div class="section">
     <div class="programming-container">
@@ -30,26 +28,36 @@ var_dump($events);
         <div class="events-container">
 
             <div class="right-arrow-background"></div>
-            <div class="all-events-container" id="events">
+            <div class="all-events-container" style="width: calc(262px * <?php echo sizeof($events) ?>);" id="events">
                 <?php
-                for ($i = 0; $i < 10; $i++) {
+                setlocale(LC_ALL, "es_ES", 'Spanish_Spain', 'Spanish');
+                for ($i = 0; $i < sizeof($events); $i++) {
                 ?>
 
                     <div class="event-card-container">
                         <div class="event-card-date">
-                            <div class="event-date-month">SEPTIEMBRE</div>
-                            <div class="event-date-day">25</div>
-                            <div class="event-date-day-name">MIÉRCOLES</div>
+                            <div class="event-date-month"><?php echo iconv('ISO-8859-2', 'UTF-8', strftime("%B", strtotime($events[$i]->event_date))) ?></div>
+                            <div class="event-date-day"><?php echo iconv('ISO-8859-2', 'UTF-8', strftime("%d", strtotime($events[$i]->event_date))) ?></div>
+                            <div class="event-date-day-name"><?php echo iconv('ISO-8859-2', 'UTF-8', strftime("%A", strtotime($events[$i]->event_date))) ?></div>
                         </div>
                         <div class="event-description-container">
                             <div class="author">PH. D. FELIPE CESAR LONDOÑO LÓPEZ</div>
                             <div class="description">
-                                "Diseño en postpandemia" ¿Qué hacen hoy las ciudades para retomar a la normalidad y qué papel cumple el diseño en este proceso?
+                                <?php echo $events[$i]->post_title ?>
                             </div>
                         </div>
                         <div class="event-hour">09:00 AM</div>
                         <div class="event-background">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/background-events.png" alt="">
+                            <?php
+                            if (has_post_thumbnail($events[$i]->ID)) {
+                                echo get_the_post_thumbnail($events[$i]->ID);
+                            } else {
+                            ?>
+
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/background-events.png" alt="">
+                            <?php
+                            }
+                            ?>
                         </div>
                     </div>
                 <?php

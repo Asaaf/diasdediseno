@@ -21,11 +21,10 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-    width: calc(262px * 10);
 }
 
 .event-card-container {
@@ -77,6 +76,7 @@
 
 .event-date-month,
 .event-date-day-name {
+    text-transform: uppercase;
     margin-top: 12px;
     margin-right: 6px;
     font-weight: 600;
