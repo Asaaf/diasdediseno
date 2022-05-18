@@ -60,7 +60,6 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     transition: all 0.3s linear;
     background: var(--purple);
-    border-radius: 3px;
 }
 
 

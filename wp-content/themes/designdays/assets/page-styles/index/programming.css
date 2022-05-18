@@ -107,6 +107,9 @@ h1.programming-title {
     transform: translateY(-50%);
     padding: 9px 24px;
     font-size: 13px;
+    width: calc(100% - 48px);
+    height: 144px;
+    overflow: hidden;
 }
 
 .author {

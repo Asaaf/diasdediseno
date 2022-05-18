@@ -26,7 +26,15 @@
             </div>
             <div class="pure-u-1 pure-u-lg-12-24">
                 <div class="about-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about.jpg" alt="Imagen acerca de días de diseño">
+                    <?php
+                    if (has_post_thumbnail($events[$i]->ID)) {
+                        echo get_the_post_thumbnail($events[$i]->ID);
+                    } else {
+                    ?>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about.jpg" alt="Imagen acerca de días de diseño">
+                    <?php
+                    }
+                    ?>
                 </div>
                 <div class="circle-rack">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/circle-rack.png">

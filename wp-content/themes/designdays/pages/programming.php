@@ -14,9 +14,9 @@ if ($the_query->have_posts()) {
 */
 
 $events = tribe_get_events([
-    'posts_per_page' => 5,
+    'posts_per_page' => 5
 ]);
-//var_dump(tribe_get_event(0));
+
 ?>
 <div class="section">
     <div class="programming-container">
@@ -41,19 +41,30 @@ $events = tribe_get_events([
                             <div class="event-date-day-name"><?php echo iconv('ISO-8859-2', 'UTF-8', strftime("%A", strtotime($events[$i]->event_date))) ?></div>
                         </div>
                         <div class="event-description-container">
-                            <div class="author">PH. D. FELIPE CESAR LONDOÑO LÓPEZ</div>
+                            <div class="author">
+                                <?php
+                                $organizer = tribe_get_organizer($events[$i]->ID);
+                                echo $organizer;
+                                ?>
+                            </div>
                             <div class="description">
-                                <?php echo $events[$i]->post_title ?>
+                                <?php
+                                echo substr($events[$i]->post_title, 0, 132);
+                                if (strlen($events[$i]->post_title) > 132) {
+                                    echo "...";
+                                }
+                                ?>
                             </div>
                         </div>
-                        <div class="event-hour">09:00 AM</div>
+                        <div class="event-hour">
+                            <?php echo iconv('ISO-8859-2', 'UTF-8', strftime("%R", strtotime($events[$i]->event_date))) ?>
+                        </div>
                         <div class="event-background">
                             <?php
                             if (has_post_thumbnail($events[$i]->ID)) {
                                 echo get_the_post_thumbnail($events[$i]->ID);
                             } else {
                             ?>
-
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/background-events.png" alt="">
                             <?php
                             }
@@ -70,7 +81,7 @@ $events = tribe_get_events([
 <script>
     let i = 0;
     let pos = 250;
-    $("#left").click(function() {
+    $("#right").click(function() {
         console.log("left: " + pos);
         if (i <= 10) {
             pos = pos - 250;
@@ -82,7 +93,7 @@ $events = tribe_get_events([
         }
     });
 
-    $("#right").click(function() {
+    $("#left").click(function() {
         console.log("right: " + pos);
         if (i >= 0) {
             pos = pos + 250;

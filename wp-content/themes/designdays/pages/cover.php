@@ -1,25 +1,38 @@
 <div class="section">
     <div class="cover">
         <div class="cover-header">
-            <div class="logo">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-magenta.png" alt="Logotipo días de diseño" class="img-logo">
-            </div>
-            <div class="menu">
-                <ul class="menu-list">
-                    <li><a href="#">Convocatorias</a></li>
-                    <li><a href="#">Versiones</a></li>
-                    <li><a href="#">Novedades</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
+            <div class="mobile-menu" id="mobile-menu">
+                <div class="logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-magenta.png" alt="Logotipo días de diseño" class="img-logo">
+                </div>
+                <div class="menu">
+                    <ul class="menu-list" id="menu">
+                        <li><a href="#">Convocatorias</a></li>
+                        <li><a href="#">Versiones</a></li>
+                        <li><a href="#">Novedades</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="bars" id="bars">
+                    <div class="bar1" id="bar1"></div>
+                    <div class="bar2" id="bar2"></div>
+                    <div class="bar3" id="bar3"></div>
+                </div>
             </div>
         </div>
         <div class="video">
-            <div class="background-filter"></div>
-            <video autoplay muted loop id="cover">
-                <source src="<?php echo get_template_directory_uri(); ?>/assets/video/cover-video.mp4" type="video/mp4">
-                <source src="<?php echo get_template_directory_uri(); ?>/assets/video/cover-video.ogg" type="video/ogg">
-                Tú navegador no admite el elemento
-            </video>
+            <!--
+                QUITAR COMENTARIO SI SE DESEA APLICAR UN FILTRO AMARILLO SOBRE EL VIDEO QUE
+                APARECE EN EL COVER
+            -->
+            <!--
+                <div class="background-filter"></div>
+            -->
+            <?php
+            $post = get_post(102);
+            echo $post->post_content;
+            //var_dump($post->post_content);
+            ?>
         </div>
         <div class="about-designdays">
             <span>SOBRE EL EVENTO</span>
@@ -27,3 +40,25 @@
         </div>
     </div>
 </div>
+<script>
+    let bars = true;
+    $('#bars').click(() => {
+        if (bars) {
+            $('#bar1').addClass('close');
+            $('#bar2').addClass('close');
+            $('#bar3').addClass('close');
+            $('#mobile-menu').addClass('open');
+            $('#menu').addClass('show');
+            $('.menu').addClass('mobile');
+            bars = false;
+        } else {
+            $('#bar1').removeClass('close');
+            $('#bar2').removeClass('close');
+            $('#bar3').removeClass('close');
+            $('#mobile-menu').removeClass('open');
+            $('#menu').removeClass('show');
+            $('.menu').removeClass('mobile');
+            bars = true;
+        }
+    });
+</script>

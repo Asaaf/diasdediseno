@@ -1,6 +1,6 @@
 .logo {
-    width: 100px;
-    height: 70px;
+    width: 120px;
+    height: 90px;
     overflow: hidden;
     background: var(--purple);
     padding: 6px 12px;
@@ -16,7 +16,7 @@
 }
 
 .menu {
-    width: calc(100% - 148px);
+    width: calc(100% - 168px);
     float: right;
     margin-top: calc((70px + 24px) / 2);
     padding-right: 24px;
@@ -136,4 +136,79 @@ ul.menu-list li:hover a {
     position: absolute;
     z-index: 1;
     opacity: 0.8;
+}
+
+.bars {
+    position: absolute;
+    display: none;
+    width: 100px;
+    height: 102px;
+    right: 0;
+    margin: 12px;
+    z-index: 99;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    background: var(--purple);
+    width: 45px;
+    height: 6px;
+    margin: 6px auto;
+    left: 0;
+    right: 0;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.bar1.close {
+    transform-origin: center;
+    transform: rotate(45deg) translate(15px, 13px);
+}
+
+.bar3.close {
+    transform-origin: center;
+    transform: rotate(-45deg) translate(11px, -11px);
+}
+
+.bar2.close {
+    opacity: 0;
+}
+
+.mobile-menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    transition: all 0.3s linear;
+}
+
+.mobile-menu.open {
+    background: #fae400d1;
+}
+
+ul.menu-list.show {
+    opacity: 1;
+}
+
+ul.menu-list.show li {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.menu.mobile {
+    width: 100%;
+    padding: 0;
+    font-size: 24px;
+    margin-top: 60px;
 }

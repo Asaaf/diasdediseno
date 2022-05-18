@@ -216,3 +216,35 @@ li.link:hover::after {
     width: 100%;
     height: auto;
 }
+
+.screen-reader-response.show {
+    position: relative;
+    width: calc(100% - 21px);
+    background: var(--purple);
+    border-radius: 5px;
+    padding: 1px 12px;
+    font-size: 12px;
+    font-family: var(--primary-font);
+    margin: 15px 0px;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.screen-reader-response.show::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid var(--purple);
+    bottom: -12px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.wpcf7-response-output {
+    display: none;
+}

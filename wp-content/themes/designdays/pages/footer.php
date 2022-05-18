@@ -37,3 +37,9 @@
         </div>
     </div>
 </div>
+
+<script>
+    if (!$('.screen-reader-response p').is(':empty')) {
+        $('.screen-reader-response').addClass('show');
+    }
+</script>
