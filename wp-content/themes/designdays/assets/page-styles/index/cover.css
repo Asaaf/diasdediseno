@@ -103,19 +103,38 @@ ul.menu-list li:hover a {
 }
 
 .about-designdays span {
+    position: relative;
     cursor: pointer;
     font-family: var(--primary-font);
-    color: var(--purple);
+    background: var(--purple);
+    color: white;
     padding: 2px 21px 2px 12px;
     font-weight: 500;
     margin-right: -21px;
     border-radius: 12px;
+    z-index: -1;
+    overflow: hidden;
 }
 
 .about-designdays span:hover {
-    background: var(--purple);
-    color: white;
+    color: var(--purple);
     transition: all 0.3s linear;
+}
+
+.about-designdays span::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: var(--yellow);
+    z-index: -1;
+    transition: all 0.3s linear;
+}
+
+.about-designdays span:hover::after {
+    width: 100%;
 }
 
 .cover {

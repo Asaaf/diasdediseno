@@ -5,14 +5,12 @@
                 <div class="logo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-magenta.png" alt="Logotipo días de diseño" class="img-logo">
                 </div>
-                <div class="menu">
-                    <ul class="menu-list" id="menu">
-                        <li><a href="#">Convocatorias</a></li>
-                        <li><a href="#">Versiones</a></li>
-                        <li><a href="#">Novedades</a></li>
-                        <li><a href="#">Contacto</a></li>
-                    </ul>
-                </div>
+                <?php
+                wp_nav_menu(array(
+                    'theme_location' => 'my-custom-menu',
+                    'container_class' => 'custom-menu-class'
+                ));
+                ?>
                 <div class="bars" id="bars">
                     <div class="bar1" id="bar1"></div>
                     <div class="bar2" id="bar2"></div>
@@ -42,13 +40,14 @@
 </div>
 <script>
     let bars = true;
+    $('.menu ul').addClass('menu-list');
     $('#bars').click(() => {
         if (bars) {
             $('#bar1').addClass('close');
             $('#bar2').addClass('close');
             $('#bar3').addClass('close');
             $('#mobile-menu').addClass('open');
-            $('#menu').addClass('show');
+            $('.menu ul').addClass('show');
             $('.menu').addClass('mobile');
             bars = false;
         } else {
@@ -56,7 +55,7 @@
             $('#bar2').removeClass('close');
             $('#bar3').removeClass('close');
             $('#mobile-menu').removeClass('open');
-            $('#menu').removeClass('show');
+            $('.menu ul').removeClass('show');
             $('.menu').removeClass('mobile');
             bars = true;
         }

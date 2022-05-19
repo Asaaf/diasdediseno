@@ -17,19 +17,29 @@
         </div>
         <div class="partners">
             <div class="ucaldas">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/ucaldas.png" alt="Logotipo Universidad de Caldas">
+                <a href="https://www.ucaldas.edu.co/portal/" target="_blank">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/ucaldas.png" alt="Logotipo Universidad de Caldas">
+                </a>
             </div>
             <div class="artes-humanidades">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/facultad.png" alt="Logotipo Facultad de Artes y Humanidades">
+                <a href="https://artesyhumanidades.ucaldas.edu.co" target="_blank">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/facultad.png" alt="Logotipo Facultad de Artes y Humanidades">
+                </a>
             </div>
             <div class="department-dvisual">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/departamento.png" alt="Logotipo Departamento de Diseño Visual">
+                <a href="https://artesyhumanidades.ucaldas.edu.co/diseno-visual/" target="_blank">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/departamento.png" alt="Logotipo Departamento de Diseño Visual">
+                </a>
             </div>
             <div class="program-dvisual">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/programa.png" alt="Logotipo Programa de Diseño Visual">
+                <a href="https://artesyhumanidades.ucaldas.edu.co/diseno-visual/" target="_blank">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/programa.png" alt="Logotipo Programa de Diseño Visual">
+                </a>
             </div>
             <div class="consultorio">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/consultorio.png" alt="Logotipo Consultorio de Diseño Visual">
+                <a href="https://www.ucaldas.edu.co/portal/vicerrectoria-de-proyeccion-universitaria/" target="_blank">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/partners/consultorio.png" alt="Logotipo Consultorio de Diseño Visual">
+                </a>
             </div>
         </div>
         <div class="background-image">
