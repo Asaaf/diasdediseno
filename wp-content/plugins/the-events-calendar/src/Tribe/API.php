@@ -8,9 +8,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
-use Tribe__Date_Utils as Dates;
-use Tribe__Timezones as Timezones;
-
 if ( ! class_exists( 'Tribe__Events__API' ) ) {
 	class Tribe__Events__API {
 		public static $valid_venue_keys = [
@@ -462,16 +459,14 @@ if ( ! class_exists( 'Tribe__Events__API' ) ) {
 			}
 
 			// sanity check that start date < end date
-			$timezone        = Timezones::build_timezone_object( $data['EventTimezone'] );
-			$start_timestamp = Dates::build_date_object( $data['EventStartDate'], $timezone )->getTimestamp();
-			$end_timestamp   = Dates::build_date_object( $data['EventEndDate'], $timezone )->getTimestamp();
+			$start_timestamp = strtotime( $data['EventStartDate'] );
+			$end_timestamp   = strtotime( $data['EventEndDate'] );
 
 			if ( $start_timestamp > $end_timestamp ) {
 				$data['EventEndDate'] = $data['EventStartDate'];
-				$end_timestamp        = Dates::build_date_object( $data['EventStartDate'], $timezone )->getTimestamp();
 			}
 
-			$data['EventDuration'] = $end_timestamp - $start_timestamp;
+			$data['EventDuration'] = strtotime( $data['EventEndDate'] ) - $start_timestamp;
 
 			return $data;
 		}//end prepare_event_date_meta

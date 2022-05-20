@@ -23,12 +23,17 @@
 }
 
 ul.menu-list {
+    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
     text-align: right;
     font-family: var(--primary-font);
     font-weight: 500;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
 }
 
 ul.menu-list li {
@@ -36,6 +41,15 @@ ul.menu-list li {
     display: inline-block;
     color: var(--purple);
     padding: 0px 12px;
+    white-space: nowrap;
+    max-width: 129px;
+    height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ul.menu-list li:hover {
+    height: auto;
 }
 
 ul.menu-list li a {
@@ -62,6 +76,43 @@ ul.menu-list li:hover::after {
 
 ul.menu-list li:hover a {
     color: white;
+}
+
+ul.menu-list li:hover ul.children.menu-list {
+    opacity: 1;
+}
+
+ul.children.menu-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-end;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+ul.children.menu-list li {
+    text-align: right;
+    padding: 0;
+    background: var(--cromatic-black);
+    width: calc(100% + 24px);
+    margin-right: -12px;
+    padding-right: 12px;
+}
+
+ul.children.menu-list li:hover {
+    background: var(--cromatic-black);
+    background: var(--yellow);
+}
+
+ul.children.menu-list li {
+    transition: all 0.3s linear;
+}
+
+ul.children.menu-list li:hover a {
+    color: var(--cromatic-black);
 }
 
 .video {

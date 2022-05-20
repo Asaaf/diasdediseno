@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit72970b28e3f6a9b8bf8e7c234e09578c
+class ComposerStaticInita9020eeb086f77feb9bf428584a6e13f
 {
     public static $prefixLengthsPsr4 = array (
         'T' => 
@@ -26,17 +26,15 @@ class ComposerStaticInit72970b28e3f6a9b8bf8e7c234e09578c
     );
 
     public static $classMap = array (
-        'TEC\\Events\\Editor\\Full_Site\\Hooks' => __DIR__ . '/../..' . '/src/Events/Editor/Full_Site/Hooks.php',
-        'TEC\\Events\\Editor\\Full_Site\\Provider' => __DIR__ . '/../..' . '/src/Events/Editor/Full_Site/Provider.php',
-        'TEC\\Events\\Editor\\Full_Site\\Templates' => __DIR__ . '/../..' . '/src/Events/Editor/Full_Site/Templates.php',
         'TEC\\Events\\Legacy\\Views\\V1\\Provider' => __DIR__ . '/../..' . '/src/Events/Legacy/Views/V1/Provider.php',
         'Tribe\\Events\\Admin\\Filter_Bar\\Provider' => __DIR__ . '/../..' . '/src/Tribe/Admin/Filter_Bar/Provider.php',
         'Tribe\\Events\\Admin\\Notice\\Full_Site_Editor' => __DIR__ . '/../..' . '/src/Tribe/Admin/Notice/Full_Site_Editor.php',
         'Tribe\\Events\\Admin\\Notice\\Legacy_Views_Deprecation' => __DIR__ . '/../..' . '/src/Tribe/Admin/Notice/Legacy_Views_Deprecation.php',
+        'Tribe\\Events\\Admin\\Provider' => __DIR__ . '/../..' . '/src/Tribe/Admin/Provider.php',
+        'Tribe\\Events\\Admin\\Settings' => __DIR__ . '/../..' . '/src/Tribe/Admin/Settings.php',
         'Tribe\\Events\\Aggregator\\Processes\\Batch_Imports' => __DIR__ . '/../..' . '/src/Tribe/Aggregator/Processes/Batch_Imports.php',
         'Tribe\\Events\\Aggregator\\Record\\Batch_Queue' => __DIR__ . '/../..' . '/src/Tribe/Aggregator/Record/Batch_Queue.php',
         'Tribe\\Events\\Collections\\Lazy_Post_Collection' => __DIR__ . '/../..' . '/src/Tribe/Collections/Lazy_Post_Collection.php',
-        'Tribe\\Events\\Editor\\Blocks\\Archive_Events' => __DIR__ . '/../..' . '/src/Tribe/Editor/Blocks/Archive_Events.php',
         'Tribe\\Events\\Editor\\Hooks' => __DIR__ . '/../..' . '/src/Tribe/Editor/Hooks.php',
         'Tribe\\Events\\Editor\\Objects\\Editor_Object_Interface' => __DIR__ . '/../..' . '/src/Tribe/Editor/Objects/Editor_Object_Interface.php',
         'Tribe\\Events\\Editor\\Objects\\Event' => __DIR__ . '/../..' . '/src/Tribe/Editor/Objects/Event.php',
@@ -145,9 +143,9 @@ class ComposerStaticInit72970b28e3f6a9b8bf8e7c234e09578c
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit72970b28e3f6a9b8bf8e7c234e09578c::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit72970b28e3f6a9b8bf8e7c234e09578c::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit72970b28e3f6a9b8bf8e7c234e09578c::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInita9020eeb086f77feb9bf428584a6e13f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInita9020eeb086f77feb9bf428584a6e13f::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInita9020eeb086f77feb9bf428584a6e13f::$classMap;
 
         }, null, ClassLoader::class);
     }
