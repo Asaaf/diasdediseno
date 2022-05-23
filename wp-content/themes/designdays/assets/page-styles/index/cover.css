@@ -115,6 +115,19 @@ ul.children.menu-list li:hover a {
     color: var(--cromatic-black);
 }
 
+.menu.mobile ul.menu-list.show {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.menu.mobile ul.children.menu-list {
+    display: none;
+}
+
 .video {
     position: absolute;
     z-index: -2;
@@ -138,7 +151,7 @@ ul.children.menu-list li:hover a {
     width: 100%;
     height: 50px;
     overflow: hidden;
-    z-index: 200;
+    z-index: 98;
     bottom: 18px;
     display: flex;
     flex-direction: row;
@@ -260,6 +273,8 @@ ul.children.menu-list li:hover a {
 
 .mobile-menu.open {
     background: #fae400d1;
+    position: fixed;
+    z-index: 99;
 }
 
 ul.menu-list.show {
@@ -274,6 +289,11 @@ ul.menu-list.show li {
     justify-content: center;
     align-items: center;
     padding: 12px;
+}
+
+.menu.mobile .menu-list.show li {
+    max-width: initial;
+    width: 100%;
 }
 
 .menu.mobile {
