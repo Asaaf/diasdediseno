@@ -20,6 +20,7 @@
     float: right;
     margin-top: calc((70px + 24px) / 2);
     padding-right: 24px;
+    transition: all 0.3s cubic-bezier(0.62, 2.02, 1, 1);
 }
 
 ul.menu-list {
@@ -301,4 +302,32 @@ ul.menu-list.show li {
     padding: 0;
     font-size: 24px;
     margin-top: 60px;
+}
+
+.menu.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    background: var(--cromatic-black);
+    height: 60px;
+    margin-top: 0px;
+    box-shadow: -2px 3px 8px #00000078;
+}
+
+.menu.sticky ul.menu-list li a {
+    color: white;
+    font-weight: 200;
+}
+
+.menu.sticky ul.menu-list li {
+    margin-top: 21px;
+}
+
+.logo.sticky {
+    position: fixed;
+    z-index: 200;
+    height: 69px;
+    margin-top: 0;
+    box-shadow: 2px 2px 8px 2px #00000073;
+    transition: all 0.3s linear;
 }

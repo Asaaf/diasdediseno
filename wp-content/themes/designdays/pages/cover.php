@@ -40,6 +40,14 @@
 </div>
 <script>
     let bars = true;
+    var navbar = $('.menu');
+    var logo = $('.logo');
+    var children = $('.children');
+    var sticky = navbar.offset().top;
+    window.onscroll = function() {
+        stickyNav();
+    };
+
     $('.menu ul').addClass('menu-list');
     $('#bars').click(() => {
         if (bars) {
@@ -60,4 +68,16 @@
             bars = true;
         }
     });
+
+    function stickyNav() {
+        if (window.pageYOffset >= sticky) {
+            navbar.addClass("sticky");
+            logo.addClass("sticky");
+            children.addClass("sticky");
+        } else {
+            navbar.removeClass("sticky");
+            logo.removeClass("sticky");
+            children.removeClass("sticky");
+        }
+    }
 </script>
