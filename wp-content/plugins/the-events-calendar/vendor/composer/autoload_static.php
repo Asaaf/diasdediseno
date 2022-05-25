@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInita9020eeb086f77feb9bf428584a6e13f
+class ComposerStaticInitfe0e88ff7fca8e711f93ab3b9b4cdf1b
 {
     public static $prefixLengthsPsr4 = array (
         'T' => 
@@ -26,6 +26,9 @@ class ComposerStaticInita9020eeb086f77feb9bf428584a6e13f
     );
 
     public static $classMap = array (
+        'TEC\\Events\\Editor\\Full_Site\\Hooks' => __DIR__ . '/../..' . '/src/Events/Editor/Full_Site/Hooks.php',
+        'TEC\\Events\\Editor\\Full_Site\\Provider' => __DIR__ . '/../..' . '/src/Events/Editor/Full_Site/Provider.php',
+        'TEC\\Events\\Editor\\Full_Site\\Templates' => __DIR__ . '/../..' . '/src/Events/Editor/Full_Site/Templates.php',
         'TEC\\Events\\Legacy\\Views\\V1\\Provider' => __DIR__ . '/../..' . '/src/Events/Legacy/Views/V1/Provider.php',
         'Tribe\\Events\\Admin\\Filter_Bar\\Provider' => __DIR__ . '/../..' . '/src/Tribe/Admin/Filter_Bar/Provider.php',
         'Tribe\\Events\\Admin\\Notice\\Full_Site_Editor' => __DIR__ . '/../..' . '/src/Tribe/Admin/Notice/Full_Site_Editor.php',
@@ -35,6 +38,7 @@ class ComposerStaticInita9020eeb086f77feb9bf428584a6e13f
         'Tribe\\Events\\Aggregator\\Processes\\Batch_Imports' => __DIR__ . '/../..' . '/src/Tribe/Aggregator/Processes/Batch_Imports.php',
         'Tribe\\Events\\Aggregator\\Record\\Batch_Queue' => __DIR__ . '/../..' . '/src/Tribe/Aggregator/Record/Batch_Queue.php',
         'Tribe\\Events\\Collections\\Lazy_Post_Collection' => __DIR__ . '/../..' . '/src/Tribe/Collections/Lazy_Post_Collection.php',
+        'Tribe\\Events\\Editor\\Blocks\\Archive_Events' => __DIR__ . '/../..' . '/src/Tribe/Editor/Blocks/Archive_Events.php',
         'Tribe\\Events\\Editor\\Hooks' => __DIR__ . '/../..' . '/src/Tribe/Editor/Hooks.php',
         'Tribe\\Events\\Editor\\Objects\\Editor_Object_Interface' => __DIR__ . '/../..' . '/src/Tribe/Editor/Objects/Editor_Object_Interface.php',
         'Tribe\\Events\\Editor\\Objects\\Event' => __DIR__ . '/../..' . '/src/Tribe/Editor/Objects/Event.php',
@@ -143,9 +147,9 @@ class ComposerStaticInita9020eeb086f77feb9bf428584a6e13f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInita9020eeb086f77feb9bf428584a6e13f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInita9020eeb086f77feb9bf428584a6e13f::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInita9020eeb086f77feb9bf428584a6e13f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitfe0e88ff7fca8e711f93ab3b9b4cdf1b::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitfe0e88ff7fca8e711f93ab3b9b4cdf1b::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitfe0e88ff7fca8e711f93ab3b9b4cdf1b::$classMap;
 
         }, null, ClassLoader::class);
     }

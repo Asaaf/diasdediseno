@@ -11,6 +11,7 @@ Tags: responsive, theme wordpress, design days
 
 /*---> INDEX <---*/
 
+@import url(assets/page-styles/index/menu.css);
 @import url(assets/page-styles/index/cover.css);
 @import url(assets/page-styles/index/cover-responsive.css);
 @import url(assets/page-styles/index/about.css);
@@ -23,6 +24,10 @@ Tags: responsive, theme wordpress, design days
 @import url(assets/page-styles/index/programming-responsive.css);
 @import url(assets/page-styles/index/footer.css);
 @import url(assets/page-styles/index/footer-responsive.css);
+
+/*---> PAGES <---*/
+
+@import url(assets/page-styles/pages/page-style.css);
 :root {
     --yellow: #FAE400;
     --magenta: #AF3264;

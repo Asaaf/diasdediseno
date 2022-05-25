@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Días de diseño</title>
+    <link rel="stylesheet" href="http://localhost/diasdedi/wp-content/themes/designdays/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/base-min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/grids-min.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/grids-responsive-min.css">
+
+    <!--JQUERY-->
+    <script type="text/javascript" src="http://localhost/diasdedi/wp-content/themes/designdays/assets/libraries/jQuery/jquery-3.6.0.min.js"></script>
+
+    <!--FULLPAGE-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.7/fullpage.min.js" integrity="sha512-MLy5YE5Hiyow/qhqZAsO91PjjWUBngedTSWTdvSbEPjFienlVY6SJ8Uy7eLHkudkv3kTJ7NFHZ9s0JD/UwpHdA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.7/fullpage.extensions.min.js" integrity="sha512-0OyTRsdzhnPV6cpOnN8I1diwYg70M0um8yAixOzJ6ZaxUMVRvFu+B2loBVxQVxc00efCMyRxuKc0KfSPrc91Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.7/vendors/easings.min.js" integrity="sha512-SrKslwu6IjHEo/8mAOtkoUOT3MzHCEOFWktrC8BNtjPuBBYLYjg1y/Marat34uYfOfxDMLEwy8DLArWEVc2i+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.7/fullpage.min.css" integrity="sha512-UAJzvXdoBJReHrVgQJR2nNYWuW6GoW6aLUI1DNWlily9LYwaUILr/7Qc8ve8aFwk1d+x+JHU89cKTrrvWaHAXQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section">
+    <div class="cover">
+        <div class="cover-header">
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="http://localhost/diasdedi">
+            <div class="logo">
+                <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/logo-magenta.png" alt="Logotipo días de diseño" class="img-logo">
+            </div>
+        </a>
+        <div class="menu"><ul>
+<li class="page_item page-item-146 page_item_has_children"><a href="http://localhost/diasdedi/versiones/">Versiones</a>
+<ul class='children'>
+	<li class="page_item page-item-154"><a href="http://localhost/diasdedi/versiones/version-2021/">Versión 2021</a></li>
+	<li class="page_item page-item-167"><a href="http://localhost/diasdedi/versiones/version-2020/">Versión 2020</a></li>
+	<li class="page_item page-item-169"><a href="http://localhost/diasdedi/versiones/version-2019/">Versión 2019</a></li>
+</ul>
+</li>
+<li class="page_item page-item-148"><a href="http://localhost/diasdedi/novedades/">Novedades</a></li>
+<li class="page_item page-item-180"><a href="http://localhost/diasdedi/convocatorias/">Convocatorias</a></li>
+</ul></div>
+        <div class="bars" id="bars">
+            <div class="bar1" id="bar1"></div>
+            <div class="bar2" id="bar2"></div>
+            <div class="bar3" id="bar3"></div>
+        </div>
+    </div>
+</div>        <div class="video">
+            <!--
+                QUITAR COMENTARIO SI SE DESEA APLICAR UN FILTRO AMARILLO SOBRE EL VIDEO QUE
+                APARECE EN EL COVER
+            -->
+            <!--
+                <div class="background-filter"></div>
+            -->
+            <!-- wp:video {"id":124} -->
+<figure class="wp-block-video"><video autoplay loop muted src="http://localhost/diasdedi/wp-content/uploads/2022/05/pexels-kelly-lacy-9782495.mp4"></video></figure>
+<!-- /wp:video -->        </div>
+        <div class="about-designdays">
+            <span>
+                <a href="#about">
+                    SOBRE EL EVENTO
+                </a>
+            </span>
+            <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/down-arrow-cover.png" alt="Sobre el evento">
+        </div>
+    </div>
+</div>
+<script>
+    let bars = true;
+    var navbar = $('.menu');
+    var logo = $('.logo');
+    var children = $('.children');
+    var sticky = navbar.offset().top;
+    window.onscroll = function() {
+        stickyNav();
+    };
+
+    $('.menu ul').addClass('menu-list');
+    $('#bars').click(() => {
+        if (bars) {
+            $('#bar1').addClass('close');
+            $('#bar2').addClass('close');
+            $('#bar3').addClass('close');
+            $('#mobile-menu').addClass('open');
+            $('.menu ul').addClass('show');
+            $('.menu').addClass('mobile');
+            bars = false;
+        } else {
+            $('#bar1').removeClass('close');
+            $('#bar2').removeClass('close');
+            $('#bar3').removeClass('close');
+            $('#mobile-menu').removeClass('open');
+            $('.menu ul').removeClass('show');
+            $('.menu').removeClass('mobile');
+            bars = true;
+        }
+    });
+
+    function stickyNav() {
+        if (window.pageYOffset >= sticky) {
+            navbar.addClass("sticky");
+            logo.addClass("sticky");
+            children.addClass("sticky");
+        } else {
+            navbar.removeClass("sticky");
+            logo.removeClass("sticky");
+            children.removeClass("sticky");
+        }
+    }
+</script>        <div class="section" id="about">
+    <div class="about" id="about">
+        <div class="content pure-g">
+            <div class="pure-u-1 pure-u-lg-12-24">
+                <div class="about-container-section">
+                    <div class="about-container">
+                        <div class="title-container">
+                            <div class="rack">
+                                <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/rack.png" alt="" class="src">
+                            </div>
+                            <div class="about-title">
+                                ACERCA DE                            </div>
+                        </div>
+                        <div class="content-about">
+                            <!-- wp:paragraph -->
+<p>Esta es la prueba de que está funcionando bien. Quo, ipsum quaerat ratione autem quos facere omnis sapiente beatae similique consequuntur laborum ducimus laboriosam fugiat a recusandae. Aliquid, minus soluta! Ab veritatis tenetur id repellendus totam est sit tempore vero debitis odit, animi ducimus inventore molestias? Officiis est omnis temporibus minus quod labore dolorum natus vitae? Sequi soluta consequatur sunt? Minus quisquam aliquam doloremque earum iste hic labore, illo repellendus consequatur libero nobis ipsam est voluptas impedit blanditiis reiciendis voluptate.</p>
+<!-- /wp:paragraph -->                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pure-u-1 pure-u-lg-12-24">
+                <div class="about-image">
+                    <img width="3648" height="3000" src="http://localhost/diasdedi/wp-content/uploads/2022/05/Pendon.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" />                </div>
+                <div class="circle-rack">
+                    <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/circle-rack.png">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>        <div class="section">
+    <div class="goal-container pure-g">
+        <div class="pure-u-1 pure-u-lg-9-24">
+            <div class="logo-section">
+                <div class="goal-logo">
+                    <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/logo-magenta.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-lg-15-24">
+            <div class="goal-container-second-section">
+                <div class="goal-center">
+                    <div class="goal-title">
+                        <div class="triangle-rack">
+                            <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/triangle-rack.png" alt="">
+                        </div>
+                        <div class="goal-title">
+                            OBJETIVO                        </div>
+                    </div>
+                    <div class="goal-description">
+                        <!-- wp:paragraph -->
+<p>Prueba del objetivo consultado desde la administración de wordpress. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab labore optio corrupti modi facilis. Consequatur delectus, omnis pariatur officiis non vero eum temporibus animi id cum perferendis voluptate earum esse! Quisquam libero sapiente, unde veniam saepe earum quis quaerat eum qui fuga facilis sint beatae. Esse et voluptates consectetur unde ullam animi, dicta ea. Inventore consequatur eos hic natus expedita! Perferendis quia, reiciendis alias tenetur iusto deserunt debitis, eveniet ratione adipisci consequuntur similique laudantium soluta hic sint ut illo ea ex modi. Saepe reprehenderit eius cumque delectus, consequuntur laborum beatae. Provident, quidem. Libero eum sed, tempore temporibus commodi totam. Exercitationem sit, atque nulla laboriosam eius eum hic ullam repellendus debitis, perferendis rem iure quas fugit nam omnis numquam nisi nemo! Nesciunt corporis, magnam expedita reiciendis voluptate sit deserunt, quo ratione quisquam porro eveniet qui exercitationem quibusdam quae, vitae tenetur debitis itaque voluptatibus non rerum minus aliquam! Recusandae unde adipisci</p>
+<!-- /wp:paragraph -->                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>        <div class="section">
+    <div class="categories-container pure-g">
+        <div class="pure-u-1 pure-u-lg-24-24">
+            <h1 class="category-main-title">CATEGORÍAS</h1>
+        </div>
+        <div class="pure-u-1 pure-u-lg-6-24">
+            <div class="category" id="lets-talk">
+                <div class="category-title-container">
+                    <div class="icon">
+                        <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/rack.png" alt="">
+                    </div>
+                    <h2 class="category-title">
+                        HABLEMOS DE DISEÑO                    </h2>
+                </div>
+                <div class="description">
+                    <!-- wp:paragraph -->
+<p>Descripción hablemos de diseño desde la administración de Wordpress</p>
+<!-- /wp:paragraph -->                </div>
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-lg-6-24">
+            <div class="category" id="seven-by-seven">
+                <div class="category-title-container">
+                    <div class="icon">
+                        <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/triangle-rack.png" alt="">
+                    </div>
+                    <h2 class="category-title">
+                        7 x 7                    </h2>
+                </div>
+                <div class="description">
+                    <!-- wp:paragraph -->
+<p>Descripción del evento 7x7 de días de diseño desde la administración de wordpress</p>
+<!-- /wp:paragraph -->                </div>
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-lg-6-24">
+            <div class="category" id="open-door">
+                <div class="category-title-container">
+                    <div class="icon"><img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/circle-rack.png" alt=""></div>
+                    <h2 class="category-title">
+                        A PUERTA ABIERTA                    </h2>
+                </div>
+                <div class="description">
+                    <!-- wp:paragraph -->
+<p>Descripción de la sección A Puerta Abierta del evento de Días de Diseño desde la administración de Wordpress.</p>
+<!-- /wp:paragraph -->                </div>
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-lg-6-24">
+            <div class="category" id="bazaar">
+                <div class="category-title-container">
+                    <div class="icon"><img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/diamond-rack.png" alt=""></div>
+                    <h2 class="category-title">
+                        BAZAR DE DISEÑO                    </h2>
+                </div>
+                <div class="description">
+                    <!-- wp:paragraph -->
+<p>Descripción de la sección Bazar de Diseño del evento Días de Diseño desde la administración de Wordpress</p>
+<!-- /wp:paragraph -->                </div>
+            </div>
+        </div>
+    </div>
+</div>        <div class="section">
+    <div class="programming-container">
+        <h1 class="programming-title">PROGRAMACIÓN</h1>
+        <div class="arrow-container">
+            <div class="left-arrow" id="left"></div>
+            <div class="right-arrow" id="right"></div>
+        </div>
+        <div class="events-container">
+
+            <div class="right-arrow-background"></div>
+            <div class="all-events-container" style="width: calc(262px * 5);" id="events">
+                
+                    <div class="event-card-container">
+                        <div class="event-card-date">
+                            <div class="event-date-month">mayo</div>
+                            <div class="event-date-day">26</div>
+                            <div class="event-date-day-name">miércoles</div>
+                        </div>
+                        <div class="event-description-container">
+                            <div class="author">
+                                MARÍA CAMILA ORTEGA MUÑOZ                            </div>
+                            <div class="description">
+                                La super prueba del evento que realizará María Camila Ortega Muñoz para el programa de Diseño Visual de la Universidad de Caldas...                            </div>
+                        </div>
+                        <div class="event-hour">
+                            08:00                        </div>
+                        <div class="event-background">
+                                                            <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/background-events.png" alt="">
+                                                    </div>
+                    </div>
+                
+                    <div class="event-card-container">
+                        <div class="event-card-date">
+                            <div class="event-date-month">septiembre</div>
+                            <div class="event-date-day">24</div>
+                            <div class="event-date-day-name">viernes</div>
+                        </div>
+                        <div class="event-description-container">
+                            <div class="author">
+                                PH. D. FELIPE CESAR LONDOÑO LÓPEZ                            </div>
+                            <div class="description">
+                                "Diseño en postpandemia" ¿Qué hacen hoy las ciudades para retomar a la normalidad y qué papel cumple el diseño en este proceso?                            </div>
+                        </div>
+                        <div class="event-hour">
+                            08:00                        </div>
+                        <div class="event-background">
+                            <img width="564" height="842" src="http://localhost/diasdedi/wp-content/uploads/2022/05/fondo-events-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" />                        </div>
+                    </div>
+                
+                    <div class="event-card-container">
+                        <div class="event-card-date">
+                            <div class="event-date-month">septiembre</div>
+                            <div class="event-date-day">27</div>
+                            <div class="event-date-day-name">lunes</div>
+                        </div>
+                        <div class="event-description-container">
+                            <div class="author">
+                                PH. D. JESÚS ALEJANDRO GUZMÁN RAMÍREZ                            </div>
+                            <div class="description">
+                                El diseño de movimiento visto desde los sistemas proyectuales                            </div>
+                        </div>
+                        <div class="event-hour">
+                            08:00                        </div>
+                        <div class="event-background">
+                            <img width="564" height="842" src="http://localhost/diasdedi/wp-content/uploads/2022/05/fondo-events.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Fondo del evento" loading="lazy" />                        </div>
+                    </div>
+                
+                    <div class="event-card-container">
+                        <div class="event-card-date">
+                            <div class="event-date-month">septiembre</div>
+                            <div class="event-date-day">28</div>
+                            <div class="event-date-day-name">martes</div>
+                        </div>
+                        <div class="event-description-container">
+                            <div class="author">
+                                ABRAHAM MÉNDEZ GÓMEZ                            </div>
+                            <div class="description">
+                                Tipografía - Arte                            </div>
+                        </div>
+                        <div class="event-hour">
+                            08:00                        </div>
+                        <div class="event-background">
+                            <img width="564" height="842" src="http://localhost/diasdedi/wp-content/uploads/2022/05/fondo-events.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Fondo del evento" loading="lazy" />                        </div>
+                    </div>
+                
+                    <div class="event-card-container">
+                        <div class="event-card-date">
+                            <div class="event-date-month">septiembre</div>
+                            <div class="event-date-day">28</div>
+                            <div class="event-date-day-name">martes</div>
+                        </div>
+                        <div class="event-description-container">
+                            <div class="author">
+                                ALEX MEJÍA PUENTES                            </div>
+                            <div class="description">
+                                Fotografía Orgánica                            </div>
+                        </div>
+                        <div class="event-hour">
+                            09:00                        </div>
+                        <div class="event-background">
+                            <img width="564" height="842" src="http://localhost/diasdedi/wp-content/uploads/2022/05/fondo-events-2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" />                        </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+</div>
+<script>
+    let i = 0;
+    let pos = 250;
+    $("#right").click(function() {
+        console.log("left: " + pos);
+        if (i <= 10) {
+            pos = pos - 250;
+            $("#events").css({
+                "margin-left": pos + "px",
+                "transition": "all 0.3s linear"
+            });
+            i++;
+        }
+    });
+
+    $("#left").click(function() {
+        console.log("right: " + pos);
+        if (i >= 0) {
+            pos = pos + 250;
+            $("#events").css({
+                "margin-left": pos + "px",
+                "transition": "all 0.3s linear"
+            });
+            i--;
+        }
+    });
+</script>        <div class="section">
+    <div class="footer-container">
+        <div class="pure-g">
+            <div class="pure-u-1 pure-u-lg-8-24 pure-u-sm-24-24">
+                <div class="contact-form-container">
+    <h1 class="contact-title">ESCRÍBENOS</h1>
+    <div role="form" class="wpcf7" id="wpcf7-f34-o1" lang="es-CO" dir="ltr">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/diasdedi/#wpcf7-f34-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="34" />
+<input type="hidden" name="_wpcf7_version" value="5.5.6.1" />
+<input type="hidden" name="_wpcf7_locale" value="es_CO" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f34-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<div class="input-form">
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input-field" id="email" aria-required="true" aria-invalid="false" placeholder="Correo" /></span>
+</div>
+<div class="input-form">
+    <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required input-field" id="subject" aria-required="true" aria-invalid="false" placeholder="Asunto" /></span>
+</div>
+<div class="input-form">
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea input-field" id="body" aria-invalid="false"></textarea></span>
+</div>
+<div class="btn-send">
+<input type="submit" value="Enviar" class="wpcf7-form-control has-spinner wpcf7-submit send" />
+</div>
+<div class="wpcf7-response-output" aria-hidden="true"></div></form></div>    <!--
+    <form action="#" method="post" class="form-container">
+        <div class="input-form">
+            <input type="email" name="email" id="email" class="input-field" placeholder="Correo">
+        </div>
+        <div class="input-form">
+            <input type="text" name="subject" id="subject" class="input-field" placeholder="Asunto">
+        </div>
+        <div class="input-form">
+            <textarea name="body" id="body" class="input-field"></textarea>
+        </div>
+        <div class="btn-send">
+            <div class="send">
+                Enviar
+            </div>
+        </div>
+    </form>
+-->
+
+    <!--
+
+CONTACT FORM
+
+<div class="input-form">
+    [email* your-email class:input-field id:email watermark "Correo"]
+</div>
+<div class="input-form">
+    [text* your-subject class:input-field id:subject watermark "Asunto"]
+</div>
+
+<div class="input-form">
+    [textarea your-message class:input-field id:body watermark "Asunto"]
+</div>
+<div class="btn-send">
+[submit "Enviar" class:send]
+</div>
+-->
+</div>            </div>
+            <div class="interest-links pure-u-1 pure-u-lg-8-24 pure-u-sm-24-24">
+                <h2 class="title-links">Enlaces de interés</h2>
+<ul class="interest-links">
+    <li class="link">Versiones</li>
+    <li class="link">Categorías</li>
+    <li class="link">Acerca de</li>
+    <li class="link">Novedades</li>
+</ul>            </div>
+            <div class="footer-logo pure-u-1 pure-u-lg-8-24 pure-u-sm-24-24">
+                <div class="logotipo">
+                    <div class="logotipo-dias">
+                        <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/logo-amarillo.png" alt="logotipo-consultorio">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="partners">
+            <div class="ucaldas">
+                <a href="https://www.ucaldas.edu.co/portal/" target="_blank">
+                    <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/partners/ucaldas.png" alt="Logotipo Universidad de Caldas">
+                </a>
+            </div>
+            <div class="artes-humanidades">
+                <a href="https://artesyhumanidades.ucaldas.edu.co" target="_blank">
+                    <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/partners/facultad.png" alt="Logotipo Facultad de Artes y Humanidades">
+                </a>
+            </div>
+            <div class="department-dvisual">
+                <a href="https://artesyhumanidades.ucaldas.edu.co/diseno-visual/" target="_blank">
+                    <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/partners/departamento.png" alt="Logotipo Departamento de Diseño Visual">
+                </a>
+            </div>
+            <div class="program-dvisual">
+                <a href="https://artesyhumanidades.ucaldas.edu.co/diseno-visual/" target="_blank">
+                    <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/partners/programa.png" alt="Logotipo Programa de Diseño Visual">
+                </a>
+            </div>
+            <div class="consultorio">
+                <a href="https://www.ucaldas.edu.co/portal/vicerrectoria-de-proyeccion-universitaria/" target="_blank">
+                    <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/partners/consultorio.png" alt="Logotipo Consultorio de Diseño Visual">
+                </a>
+            </div>
+        </div>
+        <div class="background-image">
+            <img src="http://localhost/diasdedi/wp-content/themes/designdays/assets/images/footer.png" alt="imagen-fondo-footer">
+        </div>
+    </div>
+</div>
+
+<script>
+    if (!$('.screen-reader-response p').is(':empty')) {
+        $('.screen-reader-response').addClass('show');
+    }
+</script>    </div>
+
+    <script>
+        /*
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                //options here
+                licenseKey: "",
+                autoScrolling: true,
+                scrollHorizontally: true
+            });
+
+            //methods
+            $.fn.fullpage.setAllowScrolling(false);
+        });
+        */
+    </script>
+</body>
+
+</html>
+<!-- Dynamic page generated in 0,711 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2022-05-25 11:35:01 -->
+
+<!-- super cache -->

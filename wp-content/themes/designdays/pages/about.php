@@ -1,4 +1,4 @@
-<div class="section">
+<div class="section" id="about">
     <div class="about" id="about">
         <div class="content pure-g">
             <div class="pure-u-1 pure-u-lg-12-24">
@@ -27,8 +27,8 @@
             <div class="pure-u-1 pure-u-lg-12-24">
                 <div class="about-image">
                     <?php
-                    if (has_post_thumbnail($events[$i]->ID)) {
-                        echo get_the_post_thumbnail($events[$i]->ID);
+                    if (has_post_thumbnail($post->ID)) {
+                        echo get_the_post_thumbnail($post->ID);
                     } else {
                     ?>
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about.jpg" alt="Imagen acerca de días de diseño">
