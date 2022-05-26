@@ -35,6 +35,9 @@
     </div>
 
     <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/menu.js"></script>
+    <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/loader.js"></script>
+    <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/glitch.js"></script>
+    
 </body>
 
 </html>

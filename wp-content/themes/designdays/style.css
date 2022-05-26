@@ -28,6 +28,17 @@ Tags: responsive, theme wordpress, design days
 /*---> PAGES <---*/
 
 @import url(assets/page-styles/pages/page-style.css);
+
+/*---> LOADER <---*/
+
+@import url(assets/page-styles/index/loader.css);
+
+/*---> ERROR <---*/
+
+@import url(assets/page-styles/index/404.css);
+
+/*---> GENERAL <---*/
+
 :root {
     --yellow: #FAE400;
     --magenta: #AF3264;

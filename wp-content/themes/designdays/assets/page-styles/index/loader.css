@@ -1,0 +1,30 @@
+.loader.show {
+    position: fixed;
+    z-index: 120;
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s linear;
+    overflow: hidden;
+}
+
+.loader.hidden {
+    opacity: 0;
+}
+
+.glitched,
+.glitched2 {
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-image: url(../../images/logo-magenta-fondo-blanco.png);
+    background-size: 250px 250px;
+}
+
+.glitched2 {
+    position: absolute;
+    background-image: url(../../images/logo-cyan-fondo-blanco.png);
+    opacity: 0.8;
+}
