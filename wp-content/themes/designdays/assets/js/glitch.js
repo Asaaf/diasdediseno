@@ -95,19 +95,24 @@
             }, _this.settings.frequency);
         },
         clear: function() {
-            context.clearRect(0, 0, 250, 250);
+            var _this = this;
+            if (_this.context) {
+                _this.context.clearRect(0, 0, 250, 250);
+            }
         },
         play: function(id) {
-            var indexOfPaused = $.fn[pluginName].paused.indexOf(id);
+            if ($.fn[pluginName].paused) {
+                var indexOfPaused = $.fn[pluginName].paused.indexOf(id);
+            }
             if (indexOfPaused >= 0) {
                 $.fn[pluginName].paused.splice(indexOfPaused, 1);
             }
         },
         pause: function(id) {
-            if ($.fn[pluginName].paused.length === 0) {
+            if ($.fn[pluginName].paused && $.fn[pluginName].paused.length === 0) {
                 $.fn[pluginName].paused = [id];
             } else {
-                if ($.fn[pluginName].paused.indexOf(id) === -1) {
+                if ($.fn[pluginName].paused && $.fn[pluginName].paused.indexOf(id) === -1) {
                     $.fn[pluginName].paused.push(id);
                 }
             }

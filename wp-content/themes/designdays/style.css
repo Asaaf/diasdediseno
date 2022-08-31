@@ -28,6 +28,7 @@ Tags: responsive, theme wordpress, design days
 /*---> PAGES <---*/
 
 @import url(assets/page-styles/pages/page-style.css);
+@import url(assets/page-styles/pages/page-style-responsive.css);
 
 /*---> LOADER <---*/
 

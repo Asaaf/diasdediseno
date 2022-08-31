@@ -24,7 +24,7 @@
 <body>
     <?php include 'pages/menu.php' ?>
     <?php
-    $page = get_page(180);
+    $page = $wp_query->get_queried_object();
     ?>
     <div class="cover-section-image">
         <?php
@@ -32,12 +32,19 @@
             echo get_the_post_thumbnail($page->ID);
         }
         ?>
+        <div class="title">
+            <h1><?php echo $page->post_title; ?></h1>
+        </div>
     </div>
+    <div class="content">
+        <?php echo $page->post_content; ?>
+    </div>
+    <?php include 'pages/footer.php' ?>
 
     <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/menu.js"></script>
     <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/loader.js"></script>
     <script type="text/javascript" src="<?= get_template_directory_uri() ?>/assets/js/glitch.js"></script>
-    
+
 </body>
 
 </html>

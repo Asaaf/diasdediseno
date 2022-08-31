@@ -22,7 +22,7 @@
     width: 100%;
     height: 50px;
     overflow: hidden;
-    z-index: 99;
+    z-index: 45;
     bottom: 18px;
     display: flex;
     flex-direction: row;

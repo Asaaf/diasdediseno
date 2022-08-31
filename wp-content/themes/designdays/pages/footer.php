@@ -46,6 +46,9 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer.png" alt="imagen-fondo-footer">
         </div>
     </div>
+    <div class="copyright">
+        <small>&copy; Copyright 2022, Dias de diseño - Dasaaf. All rights reserved</small>
+    </div>
 </div>
 
 <script>

@@ -1,0 +1,21 @@
+@media only screen and (max-width: 35.5em) {
+    .cover-section-image img {
+        width: auto;
+        height: 100%;
+    }
+    .title {
+        right: 0;
+        width: 100%;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+        bottom: auto;
+        overflow: hidden;
+    }
+    .title h1 {
+        font-size: 3em;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

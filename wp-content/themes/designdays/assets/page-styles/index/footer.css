@@ -248,3 +248,11 @@ li.link:hover::after {
 .wpcf7-response-output {
     display: none;
 }
+
+.copyright {
+    background: #000000cf;
+    color: #ffffff8f;
+    text-align: center;
+    padding: 6px 0px;
+    font-family: var(--primary-font);
+}

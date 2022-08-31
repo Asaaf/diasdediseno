@@ -30,7 +30,7 @@ $('#bars').click(() => {
 });
 
 function stickyNav() {
-    if (window.pageYOffset >= sticky) {
+    if (window.pageYOffset > sticky) {
         navbar.addClass("sticky");
         logo.addClass("sticky");
         children.addClass("sticky");
